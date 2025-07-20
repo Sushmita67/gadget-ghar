@@ -2,3 +2,5 @@
 .idea/workspace.xml
 /BACKEND/node_modules
 BACKEND/package-lock.json
+FRONTEND/package-lock.json
+package-lock.json
