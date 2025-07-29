@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Test</title>
+</head>
+<body>
+    <h1>Image Loading Test</h1>
+    
+    <h2>Backend Image (should work):</h2>
+    <img src="http://localhost:4000/uploads/image5.jpg" alt="Test Image 1" style="width: 200px; height: 200px; object-fit: cover;">
+    
+    <h2>External Image (should work):</h2>
+    <img src="https://images.pexels.com/photos/19351991/pexels-photo-19351991/free-photo-of-black-and-white-bike-helmet.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Test Image 2" style="width: 200px; height: 200px; object-fit: cover;">
+    
+    <script>
+        // Test image loading
+        const img1 = new Image();
+        img1.onload = () => console.log('Backend image loaded successfully');
+        img1.onerror = () => console.log('Backend image failed to load');
+        img1.src = 'http://localhost:4000/uploads/image5.jpg';
+        
+        const img2 = new Image();
+        img2.onload = () => console.log('External image loaded successfully');
+        img2.onerror = () => console.log('External image failed to load');
+        img2.src = 'https://images.pexels.com/photos/19351991/pexels-photo-19351991/free-photo-of-black-and-white-bike-helmet.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2';
+    </script>
+</body>
+</html> 
