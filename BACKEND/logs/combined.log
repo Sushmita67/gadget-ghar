@@ -1,0 +1,738 @@
+{"level":"info","message":"POST /api/v1/user/signup"}
+{"level":"info","message":"POST /api/v1/user/signup"}
+{"level":"info","message":"POST /api/v1/user/signup"}
+{"level":"info","message":"POST /api/v1/user/signup"}
+{"level":"info","message":"POST /api/v1/user/signup"}
+{"level":"info","message":"POST /api/v1/user/signup"}
+{"_message":"User validation failed","errors":{"emailHash":{"kind":"required","message":"Path `emailHash` is required.","name":"ValidatorError","path":"emailHash","properties":{"message":"Path `emailHash` is required.","path":"emailHash","type":"required"}}},"level":"error","message":"Signup error: User validation failed: emailHash: Path `emailHash` is required.","stack":"ValidationError: User validation failed: emailHash: Path `emailHash` is required.\n    at Document.invalidate (C:\\Users\\ashmi\\OneDrive\\Desktop\\gadget-ghar\\BACKEND\\node_modules\\mongoose\\lib\\document.js:3354:32)\n    at C:\\Users\\ashmi\\OneDrive\\Desktop\\gadget-ghar\\BACKEND\\node_modules\\mongoose\\lib\\document.js:3115:17\n    at C:\\Users\\ashmi\\OneDrive\\Desktop\\gadget-ghar\\BACKEND\\node_modules\\mongoose\\lib\\schemaType.js:1410:9\n    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)","timestamp":"2025-07-21T05:03:43.347Z"}
+{"level":"info","message":"POST /api/v1/user/signup"}
+{"level":"error","message":"Signup error: encrypt is not a function","stack":"TypeError: encrypt is not a function\n    at model.<anonymous> (C:\\Users\\ashmi\\OneDrive\\Desktop\\gadget-ghar\\BACKEND\\models\\user.js:54:54)\n    at callMiddlewareFunction (C:\\Users\\ashmi\\OneDrive\\Desktop\\gadget-ghar\\BACKEND\\node_modules\\kareem\\index.js:628:27)\n    at model.next (C:\\Users\\ashmi\\OneDrive\\Desktop\\gadget-ghar\\BACKEND\\node_modules\\kareem\\index.js:93:7)\n    at _next (C:\\Users\\ashmi\\OneDrive\\Desktop\\gadget-ghar\\BACKEND\\node_modules\\kareem\\index.js:146:10)\n    at C:\\Users\\ashmi\\OneDrive\\Desktop\\gadget-ghar\\BACKEND\\node_modules\\kareem\\index.js:653:30\n    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)","timestamp":"2025-07-21T05:04:31.808Z"}
+{"level":"info","message":"POST /api/v1/user/signup"}
+{"code":"EAUTH","command":"API","level":"error","message":"Signup error: Missing credentials for \"PLAIN\"","stack":"Error: Missing credentials for \"PLAIN\"\n    at SMTPConnection._formatError (C:\\Users\\ashmi\\OneDrive\\Desktop\\gadget-ghar\\BACKEND\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:809:19)\n    at SMTPConnection.login (C:\\Users\\ashmi\\OneDrive\\Desktop\\gadget-ghar\\BACKEND\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:454:38)\n    at C:\\Users\\ashmi\\OneDrive\\Desktop\\gadget-ghar\\BACKEND\\node_modules\\nodemailer\\lib\\smtp-transport\\index.js:272:32\n    at SMTPConnection.<anonymous> (C:\\Users\\ashmi\\OneDrive\\Desktop\\gadget-ghar\\BACKEND\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:215:17)\n    at Object.onceWrapper (node:events:632:28)\n    at SMTPConnection.emit (node:events:518:28)\n    at SMTPConnection._actionEHLO (C:\\Users\\ashmi\\OneDrive\\Desktop\\gadget-ghar\\BACKEND\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:1371:14)\n    at SMTPConnection._processResponse (C:\\Users\\ashmi\\OneDrive\\Desktop\\gadget-ghar\\BACKEND\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:993:20)\n    at SMTPConnection._onData (C:\\Users\\ashmi\\OneDrive\\Desktop\\gadget-ghar\\BACKEND\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:774:14)\n    at SMTPConnection._onSocketData (C:\\Users\\ashmi\\OneDrive\\Desktop\\gadget-ghar\\BACKEND\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:195:44)","timestamp":"2025-07-21T05:05:37.095Z"}
+{"level":"info","message":"POST /api/v1/user/signup"}
+{"level":"info","message":"POST /api/v1/user/signup"}
+{"level":"info","message":{"event":"User registered (pending verification)","timestamp":"2025-07-21T05:17:22.694Z","userId":"687dcd5e269655e60f14c2b3"},"timestamp":"2025-07-21T05:17:22.694Z"}
+{"level":"info","message":"POST /api/v1/user/login"}
+{"level":"error","message":"Failed login attempt: email not verified for user testuser@example.com","timestamp":"2025-07-21T05:17:58.512Z"}
+{"level":"info","message":"POST /api/v1/user/login"}
+{"level":"error","message":"Failed login attempt: email not verified for user testuser@example.com","timestamp":"2025-07-21T05:18:12.896Z"}
+{"level":"info","message":"POST /api/v1/user/login"}
+{"level":"error","message":"Login error: User validation failed: email: Path `email` is required.","timestamp":"2025-07-21T05:19:32.996Z"}
+{"level":"info","message":"POST /api/v1/user/login"}
+{"level":"error","message":"Login error: User validation failed: email: Path `email` is required.","timestamp":"2025-07-21T05:20:42.092Z"}
+{"level":"info","message":"POST /api/v1/user/login"}
+{"level":"error","message":"Login error: User validation failed: email: Path `email` is required.","timestamp":"2025-07-21T05:24:24.040Z"}
+{"level":"info","message":"POST /api/v1/user/signup"}
+{"level":"info","message":{"event":"User registered (pending verification)","timestamp":"2025-07-21T05:25:34.604Z","userId":"687dcf4a617e8922505a9f2a"},"timestamp":"2025-07-21T05:25:34.604Z"}
+{"level":"info","message":"GET /api/v1/product/get-products?category=&price=&search="}
+{"level":"info","message":"GET /api/v1/product/get-products?category=&price=&search="}
+{"level":"info","message":"GET /api/v1/product/get-products?category=&price=&search="}
+{"level":"info","message":"GET /api/v1/product/get-products?category=&price=&search="}
+{"level":"info","message":"GET /api/v1/product/get-products?category=&price=&search="}
+{"level":"info","message":"GET /api/v1/product/get-products?category=&price=&search="}
+{"level":"info","message":"GET /api/v1/product/get-products?category=&price=&search="}
+{"level":"info","message":"OPTIONS /api/v1/user/signup"}
+{"level":"info","message":"POST /api/v1/user/signup"}
+{"level":"info","message":"OPTIONS /api/v1/user/signup"}
+{"level":"info","message":"POST /api/v1/user/signup"}
+{"level":"info","message":"OPTIONS /api/v1/user/signup"}
+{"level":"info","message":"POST /api/v1/user/signup"}
+{"level":"info","message":"OPTIONS /api/v1/user/signup"}
+{"level":"info","message":"POST /api/v1/user/signup"}
+{"level":"info","message":"OPTIONS /api/v1/user/signup"}
+{"level":"info","message":"POST /api/v1/user/signup"}
+{"level":"info","message":"OPTIONS /api/v1/user/signup"}
+{"level":"info","message":"POST /api/v1/user/signup"}
+{"level":"info","message":{"event":"User registered (pending verification)","timestamp":"2025-07-21T05:45:58.933Z","userId":"687dd412374ad34d658d41c5"},"timestamp":"2025-07-21T05:45:58.933Z"}
+{"level":"info","message":"GET /api/v1/user/verify-email?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2ODdkZDQxMjM3NGFkMzRkNjU4ZDQxYzUiLCJpYXQiOjE3NTMwNzY3NTUsImV4cCI6MTc1MzE2MzE1NX0.Wm-ToT5z4KiooN5LBUh9A5XYUU2xN-1p9TqiTMIG3pc"}
+{"level":"info","message":"GET /api/v1/user/verify-email?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2ODdkZDQxMjM3NGFkMzRkNjU4ZDQxYzUiLCJpYXQiOjE3NTMwNzY3NTUsImV4cCI6MTc1MzE2MzE1NX0.Wm-ToT5z4KiooN5LBUh9A5XYUU2xN-1p9TqiTMIG3pc"}
+{"level":"info","message":"GET /api/v1/product/get-products?category=&price=&search="}
+{"level":"info","message":"OPTIONS /api/v1/user/signup"}
+{"level":"info","message":"POST /api/v1/user/signup"}
+{"level":"info","message":{"event":"User registered (pending verification)","timestamp":"2025-07-21T05:49:49.204Z","userId":"687dd4f9e1c14dbec3ce1663"},"timestamp":"2025-07-21T05:49:49.204Z"}
+{"level":"info","message":"GET /api/v1/user/verify-email?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2ODdkZDRmOWUxYzE0ZGJlYzNjZTE2NjMiLCJpYXQiOjE3NTMwNzY5ODYsImV4cCI6MTc1MzE2MzM4Nn0.MeOrychp2XHCbdq9iM2BZjeDH3m8ChJKbvBA7z2x-T0"}
+{"level":"info","message":"GET /api/v1/user/verify-email?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2ODdkZDRmOWUxYzE0ZGJlYzNjZTE2NjMiLCJpYXQiOjE3NTMwNzY5ODYsImV4cCI6MTc1MzE2MzM4Nn0.MeOrychp2XHCbdq9iM2BZjeDH3m8ChJKbvBA7z2x-T0"}
+{"_message":"User validation failed","errors":{"email":{"kind":"required","message":"Path `email` is required.","name":"ValidatorError","path":"email","properties":{"message":"Path `email` is required.","path":"email","type":"required","value":""},"value":""}},"level":"error","message":"Email verification error: User validation failed: email: Path `email` is required.","stack":"ValidationError: User validation failed: email: Path `email` is required.\n    at Document.invalidate (C:\\Users\\ashmi\\OneDrive\\Desktop\\gadget-ghar\\BACKEND\\node_modules\\mongoose\\lib\\document.js:3354:32)\n    at C:\\Users\\ashmi\\OneDrive\\Desktop\\gadget-ghar\\BACKEND\\node_modules\\mongoose\\lib\\document.js:3115:17\n    at C:\\Users\\ashmi\\OneDrive\\Desktop\\gadget-ghar\\BACKEND\\node_modules\\mongoose\\lib\\schemaType.js:1410:9\n    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)","timestamp":"2025-07-21T05:51:34.851Z"}
+{"level":"info","message":"OPTIONS /api/v1/user/signup"}
+{"level":"info","message":"POST /api/v1/user/signup"}
+{"level":"info","message":{"event":"User registered (pending verification)","timestamp":"2025-07-21T05:52:09.792Z","userId":"687dd5855f0de13171b33405"},"timestamp":"2025-07-21T05:52:09.792Z"}
+{"level":"info","message":"GET /api/v1/user/verify-email?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2ODdkZDU4NTVmMGRlMTMxNzFiMzM0MDUiLCJpYXQiOjE3NTMwNzcxMjYsImV4cCI6MTc1MzE2MzUyNn0.VZ32pAiiJGabxLUim9hVJgKL-KKjlXwiCl2Wxff6_nA"}
+{"_message":"User validation failed","errors":{"email":{"kind":"required","message":"Path `email` is required.","name":"ValidatorError","path":"email","properties":{"message":"Path `email` is required.","path":"email","type":"required","value":""},"value":""}},"level":"error","message":"Email verification error: User validation failed: email: Path `email` is required.","stack":"ValidationError: User validation failed: email: Path `email` is required.\n    at Document.invalidate (C:\\Users\\ashmi\\OneDrive\\Desktop\\gadget-ghar\\BACKEND\\node_modules\\mongoose\\lib\\document.js:3354:32)\n    at C:\\Users\\ashmi\\OneDrive\\Desktop\\gadget-ghar\\BACKEND\\node_modules\\mongoose\\lib\\document.js:3115:17\n    at C:\\Users\\ashmi\\OneDrive\\Desktop\\gadget-ghar\\BACKEND\\node_modules\\mongoose\\lib\\schemaType.js:1410:9\n    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)","timestamp":"2025-07-21T05:52:19.713Z"}
+{"level":"info","message":"OPTIONS /api/v1/user/signup"}
+{"level":"info","message":"POST /api/v1/user/signup"}
+{"level":"info","message":{"event":"User registered (pending verification)","timestamp":"2025-07-21T05:54:17.373Z","userId":"687dd605e27e50ab56b176d0"},"timestamp":"2025-07-21T05:54:17.373Z"}
+{"level":"info","message":"GET /api/v1/user/verify-email?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2ODdkZDYwNWUyN2U1MGFiNTZiMTc2ZDAiLCJpYXQiOjE3NTMwNzcyNTMsImV4cCI6MTc1MzE2MzY1M30.UDr-h0vlG0ac-QYBUiET_9FcDlpYgu09zwa35uswZlg"}
+{"_message":"User validation failed","errors":{"email":{"kind":"required","message":"Path `email` is required.","name":"ValidatorError","path":"email","properties":{"message":"Path `email` is required.","path":"email","type":"required","value":""},"value":""}},"level":"error","message":"Email verification error: User validation failed: email: Path `email` is required.","stack":"ValidationError: User validation failed: email: Path `email` is required.\n    at Document.invalidate (C:\\Users\\ashmi\\OneDrive\\Desktop\\gadget-ghar\\BACKEND\\node_modules\\mongoose\\lib\\document.js:3354:32)\n    at C:\\Users\\ashmi\\OneDrive\\Desktop\\gadget-ghar\\BACKEND\\node_modules\\mongoose\\lib\\document.js:3115:17\n    at C:\\Users\\ashmi\\OneDrive\\Desktop\\gadget-ghar\\BACKEND\\node_modules\\mongoose\\lib\\schemaType.js:1410:9\n    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)","timestamp":"2025-07-21T05:54:27.637Z"}
+{"level":"info","message":"OPTIONS /api/v1/user/signup"}
+{"level":"info","message":"POST /api/v1/user/signup"}
+{"level":"info","message":{"event":"User registered (pending verification)","timestamp":"2025-07-21T05:57:33.160Z","userId":"687dd6c9f851517cb1be84b5"},"timestamp":"2025-07-21T05:57:33.160Z"}
+{"level":"info","message":"GET /api/v1/user/verify-email?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2ODdkZDZjOWY4NTE1MTdjYjFiZTg0YjUiLCJpYXQiOjE3NTMwNzc0NTAsImV4cCI6MTc1MzE2Mzg1MH0.8cQxPT4WYEyAqfOlwSA5QX4u-jUahZ5pvAGY64aBci0"}
+{"$__":{"activePaths":{"paths":{"__v":"init","_id":"init","createdAt":"init","email":"modify","fullName":"modify","loginAttempts":"init","password":"require","passwordCreated":"init","passwordExpiry":"init","phone":"modify","previousPasswords":"init","profileImg.url":"init","role":"init","securityLogs":"init","status":"init","updatedAt":"init"},"states":{"default":{},"init":{"__v":true,"_id":true,"createdAt":true,"loginAttempts":true,"passwordCreated":true,"passwordExpiry":true,"previousPasswords":true,"profileImg.url":true,"role":true,"securityLogs":true,"status":true,"updatedAt":true},"modify":{"email":true,"fullName":true,"phone":true},"require":{"password":true}}},"exclude":true,"selected":{"password":0},"skipId":true},"$isNew":false,"_doc":{"__v":0,"_id":"687dd6c9f851517cb1be84b5","createdAt":"2025-07-21T05:57:29.528Z","email":"","fullName":"Sushmita Biswakarma","loginAttempts":0,"passwordCreated":"2025-07-21T05:57:30.119Z","passwordExpiry":"2025-10-19T05:57:30.119Z","phone":"9827111620","previousPasswords":[],"profileImg":{"url":""},"role":"user","securityLogs":[],"status":"pending","updatedAt":"2025-07-21T05:57:29.528Z"},"level":"error","message":"User missing email field:","timestamp":"2025-07-21T05:57:43.691Z"}
+{"level":"info","message":"OPTIONS /api/v1/user/signup"}
+{"level":"info","message":"POST /api/v1/user/signup"}
+{"level":"info","message":{"event":"User registered (pending verification)","timestamp":"2025-07-21T06:01:50.404Z","userId":"687dd7cad79e800c80dd1639"},"timestamp":"2025-07-21T06:01:50.404Z"}
+{"level":"info","message":"GET /api/v1/user/verify-email?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2ODdkZDdjYWQ3OWU4MDBjODBkZDE2MzkiLCJpYXQiOjE3NTMwNzc3MDYsImV4cCI6MTc1MzE2NDEwNn0.KxyIQ2is5VAHi3lEh7UlYdspoWcp5AesdY2Rx_fxXfw"}
+{"$__":{"activePaths":{"paths":{"__v":"init","_id":"init","createdAt":"init","email":"modify","fullName":"modify","loginAttempts":"init","password":"require","passwordCreated":"init","passwordExpiry":"init","phone":"modify","previousPasswords":"init","profileImg.url":"init","role":"init","securityLogs":"init","status":"init","updatedAt":"init"},"states":{"default":{},"init":{"__v":true,"_id":true,"createdAt":true,"loginAttempts":true,"passwordCreated":true,"passwordExpiry":true,"previousPasswords":true,"profileImg.url":true,"role":true,"securityLogs":true,"status":true,"updatedAt":true},"modify":{"email":true,"fullName":true,"phone":true},"require":{"password":true}}},"exclude":true,"selected":{"password":0},"skipId":true},"$isNew":false,"_doc":{"__v":0,"_id":"687dd7cad79e800c80dd1639","createdAt":"2025-07-21T06:01:46.307Z","email":"","fullName":"Sushmita Biswakarma","loginAttempts":0,"passwordCreated":"2025-07-21T06:01:46.736Z","passwordExpiry":"2025-10-19T06:01:46.736Z","phone":"9827111620","previousPasswords":[],"profileImg":{"url":""},"role":"user","securityLogs":[],"status":"pending","updatedAt":"2025-07-21T06:01:46.307Z"},"level":"error","message":"User missing email field:","timestamp":"2025-07-21T06:02:00.528Z"}
+{"level":"info","message":"POST /api/v1/user/signup"}
+{"level":"info","message":"POST /api/v1/user/signup"}
+{"level":"info","message":"POST /api/v1/user/signup"}
+{"level":"info","message":{"event":"User registered (pending verification)","timestamp":"2025-07-21T06:06:30.281Z","userId":"687dd8e2d00c6f976e7d544e"},"timestamp":"2025-07-21T06:06:30.281Z"}
+{"level":"info","message":"GET /api/v1/product/get-products?category=&price=&search="}
+{"level":"info","message":"GET /api/v1/user/verify-email?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2ODdkZDhlMmQwMGM2Zjk3NmU3ZDU0NGUiLCJpYXQiOjE3NTMwNzc5ODcsImV4cCI6MTc1MzE2NDM4N30.4o28O-v7W_BrrNIDj73rwyzTp1PEPSSoiaTVbnmzlQY"}
+{"$__":{"activePaths":{"paths":{"__v":"init","_id":"init","createdAt":"init","email":"modify","fullName":"modify","loginAttempts":"init","password":"require","passwordCreated":"init","passwordExpiry":"init","phone":"modify","previousPasswords":"init","profileImg.url":"init","role":"init","securityLogs":"init","status":"init","updatedAt":"init"},"states":{"default":{},"init":{"__v":true,"_id":true,"createdAt":true,"loginAttempts":true,"passwordCreated":true,"passwordExpiry":true,"previousPasswords":true,"profileImg.url":true,"role":true,"securityLogs":true,"status":true,"updatedAt":true},"modify":{"email":true,"fullName":true,"phone":true},"require":{"password":true}}},"exclude":true,"selected":{"password":0},"skipId":true},"$isNew":false,"_doc":{"__v":0,"_id":"687dd8e2d00c6f976e7d544e","createdAt":"2025-07-21T06:06:26.949Z","email":"","fullName":"Test","loginAttempts":0,"passwordCreated":"2025-07-21T06:06:27.280Z","passwordExpiry":"2025-10-19T06:06:27.280Z","phone":"9876543210","previousPasswords":[],"profileImg":{"url":""},"role":"user","securityLogs":[],"status":"pending","updatedAt":"2025-07-21T06:06:26.949Z"},"level":"error","message":"User missing email field:","timestamp":"2025-07-21T06:12:01.705Z"}
+{"level":"info","message":"GET /api/v1/user/verify-email?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2ODdkZDhlMmQwMGM2Zjk3NmU3ZDU0NGUiLCJpYXQiOjE3NTMwNzc5ODcsImV4cCI6MTc1MzE2NDM4N30.4o28O-v7W_BrrNIDj73rwyzTp1PEPSSoiaTVbnmzlQY"}
+{"$__":{"activePaths":{"paths":{"__v":"init","_id":"init","createdAt":"init","email":"modify","fullName":"modify","loginAttempts":"init","password":"require","passwordCreated":"init","passwordExpiry":"init","phone":"modify","previousPasswords":"init","profileImg.url":"init","role":"init","securityLogs":"init","status":"init","updatedAt":"init"},"states":{"default":{},"init":{"__v":true,"_id":true,"createdAt":true,"loginAttempts":true,"passwordCreated":true,"passwordExpiry":true,"previousPasswords":true,"profileImg.url":true,"role":true,"securityLogs":true,"status":true,"updatedAt":true},"modify":{"email":true,"fullName":true,"phone":true},"require":{"password":true}}},"exclude":true,"selected":{"password":0},"skipId":true},"$isNew":false,"_doc":{"__v":0,"_id":"687dd8e2d00c6f976e7d544e","createdAt":"2025-07-21T06:06:26.949Z","email":"","fullName":"Test","loginAttempts":0,"passwordCreated":"2025-07-21T06:06:27.280Z","passwordExpiry":"2025-10-19T06:06:27.280Z","phone":"9876543210","previousPasswords":[],"profileImg":{"url":""},"role":"user","securityLogs":[],"status":"pending","updatedAt":"2025-07-21T06:06:26.949Z"},"level":"error","message":"User missing email field:","timestamp":"2025-07-21T06:13:06.641Z"}
+{"level":"info","message":"GET /api/v1/user/verify-email?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2ODdkZDhlMmQwMGM2Zjk3NmU3ZDU0NGUiLCJpYXQiOjE3NTMwNzc5ODcsImV4cCI6MTc1MzE2NDM4N30.4o28O-v7W_BrrNIDj73rwyzTp1PEPSSoiaTVbnmzlQY"}
+{"$__":{"activePaths":{"paths":{"__v":"init","_id":"init","createdAt":"init","email":"modify","fullName":"modify","loginAttempts":"init","password":"require","passwordCreated":"init","passwordExpiry":"init","phone":"modify","previousPasswords":"init","profileImg.url":"init","role":"init","securityLogs":"init","status":"init","updatedAt":"init"},"states":{"default":{},"init":{"__v":true,"_id":true,"createdAt":true,"loginAttempts":true,"passwordCreated":true,"passwordExpiry":true,"previousPasswords":true,"profileImg.url":true,"role":true,"securityLogs":true,"status":true,"updatedAt":true},"modify":{"email":true,"fullName":true,"phone":true},"require":{"password":true}}},"exclude":true,"selected":{"password":0},"skipId":true},"$isNew":false,"_doc":{"__v":0,"_id":"687dd8e2d00c6f976e7d544e","createdAt":"2025-07-21T06:06:26.949Z","email":"","fullName":"Test","loginAttempts":0,"passwordCreated":"2025-07-21T06:06:27.280Z","passwordExpiry":"2025-10-19T06:06:27.280Z","phone":"9876543210","previousPasswords":[],"profileImg":{"url":""},"role":"user","securityLogs":[],"status":"pending","updatedAt":"2025-07-21T06:06:26.949Z"},"level":"error","message":"User missing email field:","timestamp":"2025-07-21T06:14:47.657Z"}
+{"level":"info","message":"GET /api/v1/user/verify-email?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2ODdkZDhlMmQwMGM2Zjk3NmU3ZDU0NGUiLCJpYXQiOjE3NTMwNzc5ODcsImV4cCI6MTc1MzE2NDM4N30.4o28O-v7W_BrrNIDj73rwyzTp1PEPSSoiaTVbnmzlQY"}
+{"$__":{"activePaths":{"paths":{"__v":"init","_id":"init","createdAt":"init","email":"modify","fullName":"modify","loginAttempts":"init","password":"require","passwordCreated":"init","passwordExpiry":"init","phone":"modify","previousPasswords":"init","profileImg.url":"init","role":"init","securityLogs":"init","status":"init","updatedAt":"init"},"states":{"default":{},"init":{"__v":true,"_id":true,"createdAt":true,"loginAttempts":true,"passwordCreated":true,"passwordExpiry":true,"previousPasswords":true,"profileImg.url":true,"role":true,"securityLogs":true,"status":true,"updatedAt":true},"modify":{"email":true,"fullName":true,"phone":true},"require":{"password":true}}},"exclude":true,"selected":{"password":0},"skipId":true},"$isNew":false,"_doc":{"__v":0,"_id":"687dd8e2d00c6f976e7d544e","createdAt":"2025-07-21T06:06:26.949Z","email":"","fullName":"Test","loginAttempts":0,"passwordCreated":"2025-07-21T06:06:27.280Z","passwordExpiry":"2025-10-19T06:06:27.280Z","phone":"9876543210","previousPasswords":[],"profileImg":{"url":""},"role":"user","securityLogs":[],"status":"pending","updatedAt":"2025-07-21T06:06:26.949Z"},"level":"error","message":"User missing email field:","timestamp":"2025-07-21T06:14:48.416Z"}
+{"level":"info","message":"GET /api/v1/user/verify-email?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2ODdkZDhlMmQwMGM2Zjk3NmU3ZDU0NGUiLCJpYXQiOjE3NTMwNzc5ODcsImV4cCI6MTc1MzE2NDM4N30.4o28O-v7W_BrrNIDj73rwyzTp1PEPSSoiaTVbnmzlQY"}
+{"$__":{"activePaths":{"paths":{"__v":"init","_id":"init","createdAt":"init","email":"modify","fullName":"modify","loginAttempts":"init","password":"require","passwordCreated":"init","passwordExpiry":"init","phone":"modify","previousPasswords":"init","profileImg.url":"init","role":"init","securityLogs":"init","status":"init","updatedAt":"init"},"states":{"default":{},"init":{"__v":true,"_id":true,"createdAt":true,"loginAttempts":true,"passwordCreated":true,"passwordExpiry":true,"previousPasswords":true,"profileImg.url":true,"role":true,"securityLogs":true,"status":true,"updatedAt":true},"modify":{"email":true,"fullName":true,"phone":true},"require":{"password":true}}},"exclude":true,"selected":{"password":0},"skipId":true},"$isNew":false,"_doc":{"__v":0,"_id":"687dd8e2d00c6f976e7d544e","createdAt":"2025-07-21T06:06:26.949Z","email":"","fullName":"Test","loginAttempts":0,"passwordCreated":"2025-07-21T06:06:27.280Z","passwordExpiry":"2025-10-19T06:06:27.280Z","phone":"9876543210","previousPasswords":[],"profileImg":{"url":""},"role":"user","securityLogs":[],"status":"pending","updatedAt":"2025-07-21T06:06:26.949Z"},"level":"error","message":"User missing email field:","timestamp":"2025-07-21T06:14:49.014Z"}
+{"level":"info","message":"GET /api/v1/user/verify-email?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2ODdkZDhlMmQwMGM2Zjk3NmU3ZDU0NGUiLCJpYXQiOjE3NTMwNzc5ODcsImV4cCI6MTc1MzE2NDM4N30.4o28O-v7W_BrrNIDj73rwyzTp1PEPSSoiaTVbnmzlQY"}
+{"$__":{"activePaths":{"paths":{"__v":"init","_id":"init","createdAt":"init","email":"modify","fullName":"modify","loginAttempts":"init","password":"require","passwordCreated":"init","passwordExpiry":"init","phone":"modify","previousPasswords":"init","profileImg.url":"init","role":"init","securityLogs":"init","status":"init","updatedAt":"init"},"states":{"default":{},"init":{"__v":true,"_id":true,"createdAt":true,"loginAttempts":true,"passwordCreated":true,"passwordExpiry":true,"previousPasswords":true,"profileImg.url":true,"role":true,"securityLogs":true,"status":true,"updatedAt":true},"modify":{"email":true,"fullName":true,"phone":true},"require":{"password":true}}},"exclude":true,"selected":{"password":0},"skipId":true},"$isNew":false,"_doc":{"__v":0,"_id":"687dd8e2d00c6f976e7d544e","createdAt":"2025-07-21T06:06:26.949Z","email":"","fullName":"Test","loginAttempts":0,"passwordCreated":"2025-07-21T06:06:27.280Z","passwordExpiry":"2025-10-19T06:06:27.280Z","phone":"9876543210","previousPasswords":[],"profileImg":{"url":""},"role":"user","securityLogs":[],"status":"pending","updatedAt":"2025-07-21T06:06:26.949Z"},"level":"error","message":"User missing email field:","timestamp":"2025-07-21T06:14:49.632Z"}
+{"level":"info","message":"OPTIONS /api/v1/user/signup"}
+{"level":"info","message":"POST /api/v1/user/signup"}
+{"level":"info","message":{"event":"User registered (pending verification)","timestamp":"2025-07-21T06:15:26.654Z","userId":"687ddafb98ad501c5ddf5eec"},"timestamp":"2025-07-21T06:15:26.654Z"}
+{"level":"info","message":"GET /api/v1/user/verify-email?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2ODdkZGFmYjk4YWQ1MDFjNWRkZjVlZWMiLCJpYXQiOjE3NTMwNzg1MjMsImV4cCI6MTc1MzE2NDkyM30.2M2MtFf3CyEooUsSXBBhidbzDf4rlR4FCTHxaWmVipM"}
+{"$__":{"activePaths":{"paths":{"__v":"init","_id":"init","createdAt":"init","email":"modify","fullName":"modify","loginAttempts":"init","password":"require","passwordCreated":"init","passwordExpiry":"init","phone":"modify","previousPasswords":"init","profileImg.url":"init","role":"init","securityLogs":"init","status":"init","updatedAt":"init"},"states":{"default":{},"init":{"__v":true,"_id":true,"createdAt":true,"loginAttempts":true,"passwordCreated":true,"passwordExpiry":true,"previousPasswords":true,"profileImg.url":true,"role":true,"securityLogs":true,"status":true,"updatedAt":true},"modify":{"email":true,"fullName":true,"phone":true},"require":{"password":true}}},"exclude":true,"selected":{"password":0},"skipId":true},"$isNew":false,"_doc":{"__v":0,"_id":"687ddafb98ad501c5ddf5eec","createdAt":"2025-07-21T06:15:23.081Z","email":"","fullName":"Sushmita Biswakarma","loginAttempts":0,"passwordCreated":"2025-07-21T06:15:23.586Z","passwordExpiry":"2025-10-19T06:15:23.586Z","phone":"9827111620","previousPasswords":[],"profileImg":{"url":""},"role":"user","securityLogs":[],"status":"pending","updatedAt":"2025-07-21T06:15:23.081Z"},"level":"error","message":"User missing email field:","timestamp":"2025-07-21T06:15:41.553Z"}
+{"level":"info","message":"GET /api/v1/user/verify-email?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2ODdkZGFmYjk4YWQ1MDFjNWRkZjVlZWMiLCJpYXQiOjE3NTMwNzg1MjMsImV4cCI6MTc1MzE2NDkyM30.2M2MtFf3CyEooUsSXBBhidbzDf4rlR4FCTHxaWmVipM"}
+{"level":"error","message":"Email verification error: Malformed UTF-8 data","stack":"Error: Malformed UTF-8 data\n    at Object.stringify (C:\\Users\\ashmi\\OneDrive\\Desktop\\gadget-ghar\\BACKEND\\node_modules\\crypto-js\\core.js:523:24)\n    at WordArray.init.toString (C:\\Users\\ashmi\\OneDrive\\Desktop\\gadget-ghar\\BACKEND\\node_modules\\crypto-js\\core.js:278:38)\n    at decryptField (C:\\Users\\ashmi\\OneDrive\\Desktop\\gadget-ghar\\BACKEND\\utils\\encryption.js:42:16)\n    at model.<anonymous> (C:\\Users\\ashmi\\OneDrive\\Desktop\\gadget-ghar\\BACKEND\\models\\user.js:59:30)\n    at Kareem.execPostSync (C:\\Users\\ashmi\\OneDrive\\Desktop\\gadget-ghar\\BACKEND\\node_modules\\kareem\\index.js:311:29)\n    at model.syncWrapper [as $__init] (C:\\Users\\ashmi\\OneDrive\\Desktop\\gadget-ghar\\BACKEND\\node_modules\\kareem\\index.js:333:26)\n    at Document.init (C:\\Users\\ashmi\\OneDrive\\Desktop\\gadget-ghar\\BACKEND\\node_modules\\mongoose\\lib\\document.js:651:8)\n    at Document.$init (C:\\Users\\ashmi\\OneDrive\\Desktop\\gadget-ghar\\BACKEND\\node_modules\\mongoose\\lib\\document.js:667:42)\n    at Object.createModelAndInit (C:\\Users\\ashmi\\OneDrive\\Desktop\\gadget-ghar\\BACKEND\\node_modules\\mongoose\\lib\\queryHelpers.js:119:12)\n    at completeOne (C:\\Users\\ashmi\\OneDrive\\Desktop\\gadget-ghar\\BACKEND\\node_modules\\mongoose\\lib\\query.js:3285:11)","timestamp":"2025-07-21T06:16:11.126Z"}
+{"level":"info","message":"OPTIONS /api/v1/user/login"}
+{"level":"info","message":"POST /api/v1/user/login"}
+{"level":"error","message":"Failed login attempt: user not found for email gadgetuser@yopmail.com","timestamp":"2025-07-21T06:16:20.411Z"}
+{"level":"info","message":"OPTIONS /api/v1/user/login"}
+{"level":"info","message":"POST /api/v1/user/login"}
+{"level":"error","message":"Failed login attempt: user not found for email gadgetuser@yopmail.com","timestamp":"2025-07-21T06:16:27.185Z"}
+{"level":"info","message":"OPTIONS /api/v1/user/signup"}
+{"level":"info","message":"POST /api/v1/user/signup"}
+{"level":"info","message":{"event":"User registered (pending verification)","timestamp":"2025-07-21T06:17:51.661Z","userId":"687ddb8c03a435a7204939ad"},"timestamp":"2025-07-21T06:17:51.661Z"}
+{"level":"info","message":"OPTIONS /api/v1/user/login"}
+{"level":"info","message":"POST /api/v1/user/login"}
+{"level":"info","message":{"event":"User logged in","timestamp":"2025-07-21T06:18:10.351Z","userId":"687ddb8c03a435a7204939ad"},"timestamp":"2025-07-21T06:18:10.351Z"}
+{"level":"info","message":"GET /api/v1/product/get-products?category=&price=&search="}
+{"level":"info","message":"OPTIONS /api/v1/user/signup"}
+{"level":"info","message":"POST /api/v1/user/signup"}
+{"level":"info","message":{"event":"User registered (pending verification)","timestamp":"2025-07-21T06:18:49.574Z","userId":"687ddbc503a435a7204939b4"},"timestamp":"2025-07-21T06:18:49.574Z"}
+{"level":"info","message":"GET /api/v1/user/verify-email?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2ODdkZGI4YzAzYTQzNWE3MjA0OTM5YWQiLCJpYXQiOjE3NTMwNzg2NjgsImV4cCI6MTc1MzE2NTA2OH0.2HG8WO5toSt8mPr325FSNHFhEQFWoz5cRuXj4at9ehc"}
+{"level":"info","message":"GET /api/v1/user/verify-email?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2ODdkZGI4YzAzYTQzNWE3MjA0OTM5YWQiLCJpYXQiOjE3NTMwNzg2NjgsImV4cCI6MTc1MzE2NTA2OH0.2HG8WO5toSt8mPr325FSNHFhEQFWoz5cRuXj4at9ehc"}
+{"level":"info","message":"GET /api/v1/user/verify-email?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2ODdkZGI4YzAzYTQzNWE3MjA0OTM5YWQiLCJpYXQiOjE3NTMwNzg2NjgsImV4cCI6MTc1MzE2NTA2OH0.2HG8WO5toSt8mPr325FSNHFhEQFWoz5cRuXj4at9ehc"}
+{"level":"info","message":"GET /api/v1/user/verify-email?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2ODdkZGI4YzAzYTQzNWE3MjA0OTM5YWQiLCJpYXQiOjE3NTMwNzg2NjgsImV4cCI6MTc1MzE2NTA2OH0.2HG8WO5toSt8mPr325FSNHFhEQFWoz5cRuXj4at9ehc"}
+{"level":"info","message":"GET /api/v1/user/verify-email?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2ODdkZGI4YzAzYTQzNWE3MjA0OTM5YWQiLCJpYXQiOjE3NTMwNzg2NjgsImV4cCI6MTc1MzE2NTA2OH0.2HG8WO5toSt8mPr325FSNHFhEQFWoz5cRuXj4at9ehc"}
+{"level":"info","message":"GET /api/v1/user/verify-email?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2ODdkZGI4YzAzYTQzNWE3MjA0OTM5YWQiLCJpYXQiOjE3NTMwNzg2NjgsImV4cCI6MTc1MzE2NTA2OH0.2HG8WO5toSt8mPr325FSNHFhEQFWoz5cRuXj4at9ehc"}
+{"level":"info","message":"GET /api/v1/user/verify-email?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2ODdkZGI4YzAzYTQzNWE3MjA0OTM5YWQiLCJpYXQiOjE3NTMwNzg2NjgsImV4cCI6MTc1MzE2NTA2OH0.2HG8WO5toSt8mPr325FSNHFhEQFWoz5cRuXj4at9ehc"}
+{"level":"info","message":"GET /api/v1/user/verify-email?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2ODdkZGI4YzAzYTQzNWE3MjA0OTM5YWQiLCJpYXQiOjE3NTMwNzg2NjgsImV4cCI6MTc1MzE2NTA2OH0.2HG8WO5toSt8mPr325FSNHFhEQFWoz5cRuXj4at9ehc"}
+{"level":"info","message":"GET /api/v1/user/verify-email?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2ODdkZGI4YzAzYTQzNWE3MjA0OTM5YWQiLCJpYXQiOjE3NTMwNzg2NjgsImV4cCI6MTc1MzE2NTA2OH0.2HG8WO5toSt8mPr325FSNHFhEQFWoz5cRuXj4at9ehc"}
+{"level":"info","message":"GET /api/v1/user/verify-email?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2ODdkZGI4YzAzYTQzNWE3MjA0OTM5YWQiLCJpYXQiOjE3NTMwNzg2NjgsImV4cCI6MTc1MzE2NTA2OH0.2HG8WO5toSt8mPr325FSNHFhEQFWoz5cRuXj4at9ehc"}
+{"level":"info","message":"GET /api/v1/user/verify-email?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2ODdkZGI4YzAzYTQzNWE3MjA0OTM5YWQiLCJpYXQiOjE3NTMwNzg2NjgsImV4cCI6MTc1MzE2NTA2OH0.2HG8WO5toSt8mPr325FSNHFhEQFWoz5cRuXj4at9ehc"}
+{"level":"info","message":"GET /api/v1/user/verify-email?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2ODdkZGI4YzAzYTQzNWE3MjA0OTM5YWQiLCJpYXQiOjE3NTMwNzg2NjgsImV4cCI6MTc1MzE2NTA2OH0.2HG8WO5toSt8mPr325FSNHFhEQFWoz5cRuXj4at9ehc"}
+{"level":"info","message":"GET /api/v1/user/verify-email?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2ODdkZGI4YzAzYTQzNWE3MjA0OTM5YWQiLCJpYXQiOjE3NTMwNzg2NjgsImV4cCI6MTc1MzE2NTA2OH0.2HG8WO5toSt8mPr325FSNHFhEQFWoz5cRuXj4at9ehc"}
+{"level":"info","message":"GET /api/v1/user/verify-email?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2ODdkZGI4YzAzYTQzNWE3MjA0OTM5YWQiLCJpYXQiOjE3NTMwNzg2NjgsImV4cCI6MTc1MzE2NTA2OH0.2HG8WO5toSt8mPr325FSNHFhEQFWoz5cRuXj4at9ehc"}
+{"level":"info","message":"OPTIONS /api/v1/user/signup"}
+{"level":"info","message":"POST /api/v1/user/signup"}
+{"level":"info","message":{"event":"User registered (pending verification)","timestamp":"2025-07-21T06:24:35.593Z","userId":"687ddd1f03a435a7204939c5"},"timestamp":"2025-07-21T06:24:35.593Z"}
+{"level":"info","message":"GET /api/v1/user/verify-email?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2ODdkZGQxZjAzYTQzNWE3MjA0OTM5YzUiLCJpYXQiOjE3NTMwNzkwNzIsImV4cCI6MTc1MzE2NTQ3Mn0.2YPUtm0KasRCsh1a4jHg5oze0CAhJxx2ufUPF5b8M44"}
+{"level":"info","message":{"event":"Email verified","timestamp":"2025-07-21T06:24:48.509Z","userId":"687ddd1f03a435a7204939c5"},"timestamp":"2025-07-21T06:24:48.509Z"}
+{"level":"info","message":"OPTIONS /api/v1/user/login"}
+{"level":"info","message":"POST /api/v1/user/login"}
+{"level":"info","message":{"event":"User logged in","timestamp":"2025-07-21T06:25:02.706Z","userId":"687ddd1f03a435a7204939c5"},"timestamp":"2025-07-21T06:25:02.706Z"}
+{"level":"info","message":"GET /api/v1/product/get-products?category=&price=&search="}
+{"level":"info","message":"Connected to MongoDB for seeding.","timestamp":"2025-07-21T06:29:14.838Z"}
+{"level":"info","message":"Cleared User collection.","timestamp":"2025-07-21T06:29:14.858Z"}
+{"_message":"User validation failed","errors":{"fullName":{"kind":"required","message":"Path `fullName` is required.","name":"ValidatorError","path":"fullName","properties":{"message":"Path `fullName` is required.","path":"fullName","type":"required"}}},"level":"error","message":"Seeding error: User validation failed: fullName: Path `fullName` is required.","stack":"ValidationError: User validation failed: fullName: Path `fullName` is required.\n    at Document.invalidate (C:\\Users\\ashmi\\OneDrive\\Desktop\\gadget-ghar\\BACKEND\\node_modules\\mongoose\\lib\\document.js:3354:32)\n    at C:\\Users\\ashmi\\OneDrive\\Desktop\\gadget-ghar\\BACKEND\\node_modules\\mongoose\\lib\\document.js:3115:17\n    at C:\\Users\\ashmi\\OneDrive\\Desktop\\gadget-ghar\\BACKEND\\node_modules\\mongoose\\lib\\schemaType.js:1410:9\n    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)","timestamp":"2025-07-21T06:29:15.131Z"}
+{"level":"info","message":"Connected to MongoDB for seeding.","timestamp":"2025-07-21T06:30:06.917Z"}
+{"level":"info","message":"Cleared User collection.","timestamp":"2025-07-21T06:30:06.933Z"}
+{"_message":"User validation failed","errors":{"fullName":{"kind":"required","message":"Path `fullName` is required.","name":"ValidatorError","path":"fullName","properties":{"message":"Path `fullName` is required.","path":"fullName","type":"required"}}},"level":"error","message":"Seeding error: User validation failed: fullName: Path `fullName` is required.","stack":"ValidationError: User validation failed: fullName: Path `fullName` is required.\n    at Document.invalidate (C:\\Users\\ashmi\\OneDrive\\Desktop\\gadget-ghar\\BACKEND\\node_modules\\mongoose\\lib\\document.js:3354:32)\n    at C:\\Users\\ashmi\\OneDrive\\Desktop\\gadget-ghar\\BACKEND\\node_modules\\mongoose\\lib\\document.js:3115:17\n    at C:\\Users\\ashmi\\OneDrive\\Desktop\\gadget-ghar\\BACKEND\\node_modules\\mongoose\\lib\\schemaType.js:1410:9\n    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)","timestamp":"2025-07-21T06:30:07.200Z"}
+{"level":"info","message":"Connected to MongoDB for seeding.","timestamp":"2025-07-21T06:33:36.201Z"}
+{"level":"info","message":"Cleared User collection.","timestamp":"2025-07-21T06:33:36.219Z"}
+{"level":"info","message":"Seeded user: alice.admin@example.com","timestamp":"2025-07-21T06:33:36.748Z"}
+{"code":11000,"errorLabelSet":{},"errorResponse":{"code":11000,"errmsg":"E11000 duplicate key error collection: gadgetghar_db.users index: emailHash_1 dup key: { emailHash: null }","index":0,"keyPattern":{"emailHash":1},"keyValue":{"emailHash":null}},"index":0,"keyPattern":{"emailHash":1},"keyValue":{"emailHash":null},"level":"error","message":"Seeding error: E11000 duplicate key error collection: gadgetghar_db.users index: emailHash_1 dup key: { emailHash: null }","stack":"MongoServerError: E11000 duplicate key error collection: gadgetghar_db.users index: emailHash_1 dup key: { emailHash: null }\n    at InsertOneOperation.execute (C:\\Users\\ashmi\\OneDrive\\Desktop\\gadget-ghar\\BACKEND\\node_modules\\mongodb\\lib\\operations\\insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async tryOperation (C:\\Users\\ashmi\\OneDrive\\Desktop\\gadget-ghar\\BACKEND\\node_modules\\mongodb\\lib\\operations\\execute_operation.js:207:20)\n    at async executeOperation (C:\\Users\\ashmi\\OneDrive\\Desktop\\gadget-ghar\\BACKEND\\node_modules\\mongodb\\lib\\operations\\execute_operation.js:75:16)\n    at async Collection.insertOne (C:\\Users\\ashmi\\OneDrive\\Desktop\\gadget-ghar\\BACKEND\\node_modules\\mongodb\\lib\\collection.js:157:16)","timestamp":"2025-07-21T06:33:37.248Z"}
+{"level":"info","message":"Connected to MongoDB for seeding.","timestamp":"2025-07-21T06:34:44.824Z"}
+{"level":"info","message":"Cleared User collection.","timestamp":"2025-07-21T06:34:44.840Z"}
+{"level":"info","message":"Seeded user: alice.admin@example.com","timestamp":"2025-07-21T06:34:45.366Z"}
+{"code":11000,"errorLabelSet":{},"errorResponse":{"code":11000,"errmsg":"E11000 duplicate key error collection: gadgetghar_db.users index: emailHash_1 dup key: { emailHash: null }","index":0,"keyPattern":{"emailHash":1},"keyValue":{"emailHash":null}},"index":0,"keyPattern":{"emailHash":1},"keyValue":{"emailHash":null},"level":"error","message":"Seeding error: E11000 duplicate key error collection: gadgetghar_db.users index: emailHash_1 dup key: { emailHash: null }","stack":"MongoServerError: E11000 duplicate key error collection: gadgetghar_db.users index: emailHash_1 dup key: { emailHash: null }\n    at InsertOneOperation.execute (C:\\Users\\ashmi\\OneDrive\\Desktop\\gadget-ghar\\BACKEND\\node_modules\\mongodb\\lib\\operations\\insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async tryOperation (C:\\Users\\ashmi\\OneDrive\\Desktop\\gadget-ghar\\BACKEND\\node_modules\\mongodb\\lib\\operations\\execute_operation.js:207:20)\n    at async executeOperation (C:\\Users\\ashmi\\OneDrive\\Desktop\\gadget-ghar\\BACKEND\\node_modules\\mongodb\\lib\\operations\\execute_operation.js:75:16)\n    at async Collection.insertOne (C:\\Users\\ashmi\\OneDrive\\Desktop\\gadget-ghar\\BACKEND\\node_modules\\mongodb\\lib\\collection.js:157:16)","timestamp":"2025-07-21T06:34:45.927Z"}
+{"level":"info","message":"Connected to MongoDB for seeding.","timestamp":"2025-07-21T06:35:16.358Z"}
+{"level":"info","message":"Cleared User collection.","timestamp":"2025-07-21T06:35:16.378Z"}
+{"level":"info","message":"Seeded user: alice.admin@example.com","timestamp":"2025-07-21T06:35:16.903Z"}
+{"level":"info","message":"Seeded user: bob.customer@example.com","timestamp":"2025-07-21T06:35:17.386Z"}
+{"level":"info","message":"Cleared Product collection.","timestamp":"2025-07-21T06:35:17.388Z"}
+{"level":"info","message":"Seeded product: Mechanical Keyboard","timestamp":"2025-07-21T06:35:17.395Z"}
+{"level":"info","message":"Seeded product: Wireless Mouse","timestamp":"2025-07-21T06:35:17.397Z"}
+{"level":"info","message":"Seeded product: Gaming Headset","timestamp":"2025-07-21T06:35:17.399Z"}
+{"level":"info","message":"GET /api/v1/product/get-products?category=&price=&search="}
+{"level":"info","message":"GET /api/v1/product/get-product/Gaming-Headset"}
+{"level":"info","message":"GET /api/v1/review/687ddfa5250f15893b8a39c8"}
+{"level":"info","message":"GET /api/v1/product/get-products?category=&price=&search="}
+{"level":"info","message":"OPTIONS /api/v1/user/signup"}
+{"level":"info","message":"POST /api/v1/user/signup"}
+{"level":"info","message":{"event":"User registered (pending verification)","timestamp":"2025-07-21T06:36:09.020Z","userId":"687ddfd54643cdff31c05c99"},"timestamp":"2025-07-21T06:36:09.020Z"}
+{"level":"info","message":"GET /api/v1/user/verify-email?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2ODdkZGZkNTQ2NDNjZGZmMzFjMDVjOTkiLCJpYXQiOjE3NTMwNzk3NjUsImV4cCI6MTc1MzE2NjE2NX0.GHGWXw7O7P3LMAu8f9577RL0osIsUF7EFsZtpEpGxJI"}
+{"level":"info","message":{"event":"Email verified","timestamp":"2025-07-21T06:36:21.860Z","userId":"687ddfd54643cdff31c05c99"},"timestamp":"2025-07-21T06:36:21.860Z"}
+{"level":"info","message":"GET /api/v1/product/get-products?category=&price=&search="}
+{"level":"info","message":"OPTIONS /api/v1/user/login"}
+{"level":"info","message":"POST /api/v1/user/login"}
+{"level":"info","message":{"event":"Failed login attempt","timestamp":"2025-07-21T06:36:51.015Z","userId":"687ddfd54643cdff31c05c99"},"timestamp":"2025-07-21T06:36:51.015Z"}
+{"level":"error","message":"Failed login attempt: wrong password for user gadgetuser@yopmail.com","timestamp":"2025-07-21T06:36:51.016Z"}
+{"level":"info","message":"OPTIONS /api/v1/user/login"}
+{"level":"info","message":"POST /api/v1/user/login"}
+{"level":"info","message":{"event":"User logged in","timestamp":"2025-07-21T06:36:56.250Z","userId":"687ddfd54643cdff31c05c99"},"timestamp":"2025-07-21T06:36:56.250Z"}
+{"level":"info","message":"GET /api/v1/product/get-products?category=&price=&search="}
+{"level":"info","message":"GET /api/v1/product/get-products?category=&price=&search="}
+{"level":"info","message":"GET /api/v1/product/get-product/Gaming-Headset"}
+{"level":"info","message":"GET /api/v1/review/687ddfa5250f15893b8a39c8"}
+{"level":"info","message":"GET /api/v1/product/get-product/Gaming-Headset"}
+{"level":"info","message":"GET /api/v1/uploads/image5.jpg"}
+{"level":"info","message":"GET /api/v1/uploads/image6.jpg"}
+{"level":"info","message":"GET /api/v1/review/687ddfa5250f15893b8a39c8"}
+{"level":"info","message":"GET /api/v1/product/get-products?category=&price=&search="}
+{"level":"info","message":"GET /api/v1/product/get-products?category=&price=&search="}
+{"level":"info","message":"GET /api/v1/product/get-products?category=&price=&search="}
+{"level":"info","message":"GET /api/v1/product/get-products?category=&price=&search="}
+{"level":"info","message":"GET /api/v1/product/get-product/Gaming-Headset"}
+{"level":"info","message":"GET /api/v1/review/687ddfa5250f15893b8a39c8"}
+{"level":"info","message":"GET /api/v1/product/get-product/Gaming-Headset"}
+{"level":"info","message":"GET /api/v1/review/687ddfa5250f15893b8a39c8"}
+{"level":"info","message":"GET /api/v1/product/get-products?category=&price=&search="}
+{"level":"info","message":"GET /api/v1/product/get-products?category=&price=&search="}
+{"level":"info","message":"GET /api/v1/product/get-product/Gaming-Headset"}
+{"level":"info","message":"GET /api/v1/review/687ddfa5250f15893b8a39c8"}
+{"level":"info","message":"GET /api/v1/product/get-product/Gaming-Headset"}
+{"level":"info","message":"GET /api/v1/review/687ddfa5250f15893b8a39c8"}
+{"level":"info","message":"GET /api/v1/product/get-product/Gaming-Headset"}
+{"level":"info","message":"GET /api/v1/review/687ddfa5250f15893b8a39c8"}
+{"level":"info","message":"GET /api/v1/product/get-product/Gaming-Headset"}
+{"level":"info","message":"GET /api/v1/review/687ddfa5250f15893b8a39c8"}
+{"level":"info","message":"GET /api/v1/product/get-product/Gaming-Headset"}
+{"level":"info","message":"GET /api/v1/review/687ddfa5250f15893b8a39c8"}
+{"level":"info","message":"GET /api/v1/product/get-product/Gaming-Headset"}
+{"level":"info","message":"GET //uploads/image6.jpg"}
+{"level":"info","message":"GET //uploads/image5.jpg"}
+{"level":"info","message":"GET /api/v1/product/get-product/Gaming-Headset"}
+{"level":"info","message":"GET //uploads/image5.jpg"}
+{"level":"info","message":"GET //uploads/image6.jpg"}
+{"level":"info","message":"GET /api/v1/review/687ddfa5250f15893b8a39c8"}
+{"level":"info","message":"GET /api/v1/product/get-product/Gaming-Headset"}
+{"level":"info","message":"GET /uploads/image5.jpg"}
+{"level":"info","message":"GET /uploads/image6.jpg"}
+{"level":"info","message":"GET /api/v1/review/687ddfa5250f15893b8a39c8"}
+{"level":"info","message":"GET /api/v1/product/get-products?category=&price=&search="}
+{"level":"info","message":"GET /api/v1/product/get-products?category=&price=&search="}
+{"level":"info","message":"GET /api/v1/product/get-product/Gaming-Headset"}
+{"level":"info","message":"GET /api/v1/review/687ddfa5250f15893b8a39c8"}
+{"level":"info","message":"GET /uploads/image5.jpg"}
+{"level":"info","message":"GET /uploads/image6.jpg"}
+{"level":"info","message":"GET /api/v1/product/get-product/Gaming-Headset"}
+{"level":"info","message":"GET /api/v1/product/get-product/Gaming-Headset"}
+{"level":"info","message":"GET /uploads/image5.jpg"}
+{"level":"info","message":"GET /uploads/image6.jpg"}
+{"level":"info","message":"GET /api/v1/review/687ddfa5250f15893b8a39c8"}
+{"level":"info","message":"GET /uploads/image5.jpg"}
+{"level":"info","message":"GET /favicon.ico"}
+{"level":"info","message":"GET /api/v1/product/get-product/Gaming-Headset"}
+{"level":"info","message":"GET /uploads/image5.jpg"}
+{"level":"info","message":"GET /uploads/image6.jpg"}
+{"level":"info","message":"GET /api/v1/review/687ddfa5250f15893b8a39c8"}
+{"level":"info","message":"GET /uploads/image5.jpg"}
+{"level":"info","message":"GET /uploads/image5.jpg"}
+{"level":"info","message":"GET /api/v1/product/get-product/Gaming-Headset"}
+{"level":"info","message":"GET /uploads/image5.jpg"}
+{"level":"info","message":"GET /uploads/image6.jpg"}
+{"level":"info","message":"GET /api/v1/review/687ddfa5250f15893b8a39c8"}
+{"level":"info","message":"GET /api/v1/product/get-product/Gaming-Headset"}
+{"level":"info","message":"GET /uploads/image5.jpg"}
+{"level":"info","message":"GET /api/v1/review/687ddfa5250f15893b8a39c8"}
+{"level":"info","message":"GET /uploads/image6.jpg"}
+{"level":"info","message":"GET /api/v1/product/get-products?category=&price=&search="}
+{"level":"info","message":"GET /uploads/image1.jpg"}
+{"level":"info","message":"GET /uploads/image3.jpg"}
+{"level":"info","message":"GET /uploads/image5.jpg"}
+{"level":"info","message":"GET /api/v1/product/get-products?category=&price=&search="}
+{"level":"info","message":"GET /uploads//uploads/image1.jpg"}
+{"level":"info","message":"GET /uploads//uploads/image3.jpg"}
+{"level":"info","message":"GET /uploads//uploads/image5.jpg"}
+{"level":"info","message":"GET /api/v1/product/get-products?category=&price=&search="}
+{"level":"info","message":"GET /uploads//uploads/image1.jpg"}
+{"level":"info","message":"GET /uploads//uploads/image3.jpg"}
+{"level":"info","message":"GET /uploads//uploads/image5.jpg"}
+{"level":"info","message":"GET /api/v1/product/get-products?category=&price=&search="}
+{"level":"info","message":"GET /uploads/image1.jpg"}
+{"level":"info","message":"GET /uploads/image3.jpg"}
+{"level":"info","message":"GET /uploads/image5.jpg"}
+{"level":"info","message":"GET /api/v1/product/get-products?category=&price=&search="}
+{"level":"info","message":"GET /uploads/image1.jpg"}
+{"level":"info","message":"GET /uploads/image3.jpg"}
+{"level":"info","message":"GET /uploads/image5.jpg"}
+{"level":"info","message":"GET /api/v1/product/get-products?category=&price=&search="}
+{"level":"info","message":"GET /uploads/image1.jpg"}
+{"level":"info","message":"GET /uploads/image3.jpg"}
+{"level":"info","message":"GET /uploads/image5.jpg"}
+{"level":"info","message":"GET /api/v1/product/get-products?category=&price=&search="}
+{"level":"info","message":"GET /uploads/image1.jpg"}
+{"level":"info","message":"GET /uploads/image5.jpg"}
+{"level":"info","message":"GET /uploads/image3.jpg"}
+{"level":"info","message":"GET /api/v1/product/get-products?category=&price=&search="}
+{"level":"info","message":"GET /uploads/image3.jpg"}
+{"level":"info","message":"GET /uploads/image1.jpg"}
+{"level":"info","message":"GET /uploads/image5.jpg"}
+{"level":"info","message":"GET /api/v1/product/get-products?category=&price=&search="}
+{"level":"info","message":"GET /uploads/image1.jpg"}
+{"level":"info","message":"GET /uploads/image3.jpg"}
+{"level":"info","message":"GET /uploads/image5.jpg"}
+{"level":"info","message":"GET /api/v1/product/get-products?category=&price=&search="}
+{"level":"info","message":"GET /uploads/image1.jpg"}
+{"level":"info","message":"GET /uploads/image3.jpg"}
+{"level":"info","message":"GET /uploads/image5.jpg"}
+{"level":"info","message":"GET /api/v1/product/get-products?category=&price=&search="}
+{"level":"info","message":"GET /uploads/image1.jpg"}
+{"level":"info","message":"GET /uploads/image3.jpg"}
+{"level":"info","message":"GET /uploads/image5.jpg"}
+{"level":"info","message":"GET /uploads/image3.jpg"}
+{"level":"info","message":"Connected to MongoDB for seeding.","timestamp":"2025-08-01T05:02:20.872Z"}
+{"level":"info","message":"Cleared User collection.","timestamp":"2025-08-01T05:02:20.887Z"}
+{"level":"info","message":"Seeded user: alice.admin@example.com","timestamp":"2025-08-01T05:02:21.373Z"}
+{"level":"info","message":"Seeded user: bob.customer@example.com","timestamp":"2025-08-01T05:02:21.816Z"}
+{"level":"info","message":"Cleared Product collection.","timestamp":"2025-08-01T05:02:21.818Z"}
+{"level":"info","message":"Seeded product: Mechanical Keyboard","timestamp":"2025-08-01T05:02:21.820Z"}
+{"level":"info","message":"Seeded product: Wireless Mouse","timestamp":"2025-08-01T05:02:21.822Z"}
+{"level":"info","message":"Seeded product: Gaming Headset","timestamp":"2025-08-01T05:02:21.823Z"}
+{"level":"info","message":"GET /api/v1/product/get-products"}
+{"level":"info","message":"GET /api/v1/product/get-products?category=&price=&search="}
+{"level":"info","message":"GET /api/v1/product/get-products"}
+{"level":"info","message":"OPTIONS /api/v1/user/check-password-strength"}
+{"level":"info","message":"POST /api/v1/user/check-password-strength"}
+{"level":"info","message":"POST /api/v1/user/check-password-strength"}
+{"level":"info","message":"POST /api/v1/user/check-password-strength"}
+{"level":"info","message":"POST /api/v1/user/check-password-strength"}
+{"level":"info","message":"POST /api/v1/user/check-password-strength"}
+{"level":"info","message":"POST /api/v1/user/check-password-strength"}
+{"level":"info","message":"OPTIONS /api/v1/user/check-password-strength"}
+{"level":"info","message":"POST /api/v1/user/check-password-strength"}
+{"level":"info","message":"POST /api/v1/user/check-password-strength"}
+{"level":"info","message":"POST /api/v1/user/check-password-strength"}
+{"level":"info","message":"POST /api/v1/user/check-password-strength"}
+{"level":"info","message":"POST /api/v1/user/check-password-strength"}
+{"level":"info","message":"OPTIONS /api/v1/user/check-password-strength"}
+{"level":"info","message":"POST /api/v1/user/check-password-strength"}
+{"level":"info","message":"POST /api/v1/user/check-password-strength"}
+{"level":"info","message":"POST /api/v1/user/check-password-strength"}
+{"level":"info","message":"POST /api/v1/user/check-password-strength"}
+{"level":"info","message":"POST /api/v1/user/check-password-strength"}
+{"level":"info","message":"POST /api/v1/user/check-password-strength"}
+{"level":"info","message":"OPTIONS /api/v1/user/check-password-strength"}
+{"level":"info","message":"POST /api/v1/user/check-password-strength"}
+{"level":"info","message":"POST /api/v1/user/check-password-strength"}
+{"level":"info","message":"POST /api/v1/user/check-password-strength"}
+{"level":"info","message":"POST /api/v1/user/check-password-strength"}
+{"level":"info","message":"POST /api/v1/user/check-password-strength"}
+{"level":"info","message":"POST /api/v1/user/check-password-strength"}
+{"level":"info","message":"POST /api/v1/user/check-password-strength"}
+{"level":"info","message":"POST /api/v1/user/check-password-strength"}
+{"level":"info","message":"POST /api/v1/user/check-password-strength"}
+{"level":"info","message":"POST /api/v1/user/check-password-strength"}
+{"level":"info","message":"POST /api/v1/user/check-password-strength"}
+{"level":"info","message":"POST /api/v1/user/check-password-strength"}
+{"level":"info","message":"POST /api/v1/user/check-password-strength"}
+{"level":"info","message":"OPTIONS /api/v1/user/check-password-strength"}
+{"level":"info","message":"POST /api/v1/user/check-password-strength"}
+{"level":"info","message":"POST /api/v1/user/check-password-strength"}
+{"level":"info","message":"POST /api/v1/user/check-password-strength"}
+{"level":"info","message":"POST /api/v1/user/check-password-strength"}
+{"level":"info","message":"POST /api/v1/user/check-password-strength"}
+{"level":"info","message":"POST /api/v1/user/check-password-strength"}
+{"level":"info","message":"POST /api/v1/user/check-password-strength"}
+{"level":"info","message":"POST /api/v1/user/check-password-strength"}
+{"level":"info","message":"OPTIONS /api/v1/user/check-password-strength"}
+{"level":"info","message":"POST /api/v1/user/check-password-strength"}
+{"level":"info","message":"POST /api/v1/user/check-password-strength"}
+{"level":"info","message":"POST /api/v1/user/check-password-strength"}
+{"level":"info","message":"POST /api/v1/user/check-password-strength"}
+{"level":"info","message":"POST /api/v1/user/check-password-strength"}
+{"level":"info","message":"POST /api/v1/user/check-password-strength"}
+{"level":"info","message":"POST /api/v1/user/check-password-strength"}
+{"level":"info","message":"POST /api/v1/user/check-password-strength"}
+{"level":"info","message":"POST /api/v1/user/check-password-strength"}
+{"level":"info","message":"POST /api/v1/user/check-password-strength"}
+{"level":"info","message":"POST /api/v1/user/check-password-strength"}
+{"level":"info","message":"OPTIONS /api/v1/user/check-password-strength"}
+{"level":"info","message":"POST /api/v1/user/check-password-strength"}
+{"level":"info","message":"POST /api/v1/user/check-password-strength"}
+{"level":"info","message":"OPTIONS /api/v1/user/signup"}
+{"level":"info","message":"POST /api/v1/user/signup"}
+{"level":"info","message":"POST /api/v1/user/check-password-strength"}
+{"level":"info","message":"POST /api/v1/user/check-password-strength"}
+{"level":"info","message":"POST /api/v1/user/check-password-strength"}
+{"level":"info","message":"POST /api/v1/user/check-password-strength"}
+{"level":"info","message":"POST /api/v1/user/check-password-strength"}
+{"level":"info","message":"POST /api/v1/user/check-password-strength"}
+{"level":"info","message":"POST /api/v1/user/check-password-strength"}
+{"level":"info","message":"POST /api/v1/user/check-password-strength"}
+{"level":"info","message":"POST /api/v1/user/check-password-strength"}
+{"level":"info","message":"POST /api/v1/user/check-password-strength"}
+{"level":"info","message":"POST /api/v1/user/check-password-strength"}
+{"level":"info","message":"POST /api/v1/user/check-password-strength"}
+{"level":"info","message":"POST /api/v1/user/check-password-strength"}
+{"level":"info","message":"POST /api/v1/user/check-password-strength"}
+{"level":"info","message":"OPTIONS /api/v1/user/check-password-strength"}
+{"level":"info","message":"POST /api/v1/user/check-password-strength"}
+{"level":"info","message":"POST /api/v1/user/check-password-strength"}
+{"level":"info","message":{"event":"User registered (pending verification)","timestamp":"2025-08-01T05:04:17.403Z","userId":"688c4accb23dce2e295175f5"},"timestamp":"2025-08-01T05:04:17.403Z"}
+{"level":"info","message":"POST /api/v1/user/check-password-strength"}
+{"level":"info","message":"OPTIONS /api/v1/user/login"}
+{"level":"info","message":"POST /api/v1/user/login"}
+{"level":"error","message":"Failed login attempt: email not verified for user asis.mool@yopmail.com","timestamp":"2025-08-01T05:04:26.381Z"}
+{"level":"info","message":"OPTIONS /api/v1/user/check-password-strength"}
+{"level":"info","message":"POST /api/v1/user/check-password-strength"}
+{"level":"info","message":"GET /api/v1/user/verify-email?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2ODhjNGFjY2IyM2RjZTJlMjk1MTc1ZjUiLCJpYXQiOjE3NTQwMjQ2NTIsImV4cCI6MTc1NDExMTA1Mn0.cxh3v8McyOgQarj7pwAm1l9ol3GPauBNONbqbhCh9Rg"}
+{"level":"info","message":"POST /api/v1/user/check-password-strength"}
+{"level":"info","message":"POST /api/v1/user/check-password-strength"}
+{"level":"info","message":"POST /api/v1/user/check-password-strength"}
+{"level":"info","message":"POST /api/v1/user/check-password-strength"}
+{"level":"info","message":"POST /api/v1/user/check-password-strength"}
+{"level":"info","message":"POST /api/v1/user/check-password-strength"}
+{"level":"info","message":"POST /api/v1/user/check-password-strength"}
+{"level":"info","message":"POST /api/v1/user/check-password-strength"}
+{"level":"info","message":"POST /api/v1/user/check-password-strength"}
+{"level":"info","message":"OPTIONS /api/v1/user/check-password-strength"}
+{"level":"info","message":"POST /api/v1/user/check-password-strength"}
+{"level":"info","message":"POST /api/v1/user/check-password-strength"}
+{"level":"info","message":"POST /api/v1/user/check-password-strength"}
+{"level":"info","message":"POST /api/v1/user/check-password-strength"}
+{"level":"info","message":"POST /api/v1/user/check-password-strength"}
+{"level":"info","message":"POST /api/v1/user/check-password-strength"}
+{"level":"info","message":"POST /api/v1/user/check-password-strength"}
+{"level":"info","message":"POST /api/v1/user/check-password-strength"}
+{"level":"info","message":"POST /api/v1/user/check-password-strength"}
+{"level":"info","message":"POST /api/v1/user/check-password-strength"}
+{"level":"info","message":"POST /api/v1/user/check-password-strength"}
+{"level":"info","message":"OPTIONS /api/v1/user/signup"}
+{"level":"info","message":"POST /api/v1/user/signup"}
+{"level":"info","message":"POST /api/v1/user/check-password-strength"}
+{"level":"info","message":"POST /api/v1/user/check-password-strength"}
+{"level":"info","message":"POST /api/v1/user/check-password-strength"}
+{"level":"info","message":"POST /api/v1/user/check-password-strength"}
+{"level":"info","message":"OPTIONS /api/v1/user/check-password-strength"}
+{"level":"info","message":"POST /api/v1/user/check-password-strength"}
+{"level":"info","message":"POST /api/v1/user/check-password-strength"}
+{"level":"info","message":"POST /api/v1/user/check-password-strength"}
+{"level":"info","message":"POST /api/v1/user/check-password-strength"}
+{"level":"info","message":"POST /api/v1/user/check-password-strength"}
+{"level":"info","message":"POST /api/v1/user/check-password-strength"}
+{"level":"info","message":"POST /api/v1/user/check-password-strength"}
+{"level":"info","message":"POST /api/v1/user/check-password-strength"}
+{"level":"info","message":{"event":"User registered (pending verification)","timestamp":"2025-08-01T05:07:33.761Z","userId":"688c4b91e1f22b876c893e25"},"timestamp":"2025-08-01T05:07:33.761Z"}
+{"level":"info","message":"POST /api/v1/user/check-password-strength"}
+{"level":"info","message":"GET /api/v1/user/verify-email?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2ODhjNGI5MWUxZjIyYjg3NmM4OTNlMjUiLCJpYXQiOjE3NTQwMjQ4NTAsImV4cCI6MTc1NDExMTI1MH0.o_2R9K_SxdoCV-hGCwTrLfU8MG4pP6RLLh8G5totSTQ"}
+{"level":"info","message":{"event":"Email verified","timestamp":"2025-08-01T05:07:42.649Z","userId":"688c4b91e1f22b876c893e25"},"timestamp":"2025-08-01T05:07:42.649Z"}
+{"level":"info","message":"OPTIONS /api/v1/user/login"}
+{"level":"info","message":"POST /api/v1/user/login"}
+{"level":"info","message":{"event":"User logged in","timestamp":"2025-08-01T05:07:49.922Z","userId":"688c4b91e1f22b876c893e25"},"timestamp":"2025-08-01T05:07:49.922Z"}
+{"level":"info","message":"GET /api/v1/product/get-products"}
+{"level":"info","message":"GET /api/v1/product/get-products?category=&price=&search="}
+{"level":"info","message":"GET /api/v1/product/get-products?category=&price=&search="}
+{"level":"info","message":"GET /api/v1/product/get-products"}
+{"level":"info","message":"GET /api/v1/product/get-products?category=&price=&search="}
+{"level":"info","message":"GET /api/v1/product/get-products"}
+{"level":"info","message":"GET /api/v1/product/get-products?category=&price=&search="}
+{"level":"info","message":"GET /api/v1/product/get-products"}
+{"level":"info","message":"GET /api/v1/product/get-products?category=&price=&search="}
+{"level":"info","message":"GET /api/v1/product/get-products"}
+{"level":"info","message":"GET /api/v1/product/get-products?category=&price=&search="}
+{"level":"info","message":"GET /api/v1/product/get-products"}
+{"level":"info","message":"GET /api/v1/product/get-products?category=&price=&search="}
+{"level":"info","message":"GET /api/v1/product/get-products"}
+{"level":"info","message":"GET /api/v1/product/get-products?category=&price=&search="}
+{"level":"info","message":"GET /api/v1/product/get-products"}
+{"level":"info","message":"GET /api/v1/product/get-products?category=&price=&search="}
+{"level":"info","message":"GET /api/v1/product/get-products"}
+{"level":"info","message":"GET /api/v1/product/get-products?category=&price=&search="}
+{"level":"info","message":"GET /api/v1/product/get-products"}
+{"level":"info","message":"GET /api/v1/product/get-products?category=&price=&search="}
+{"level":"info","message":"GET /api/v1/product/get-products"}
+{"level":"info","message":"GET /api/v1/product/get-products?category=&price=&search="}
+{"level":"info","message":"GET /api/v1/product/get-products"}
+{"level":"info","message":"GET /api/v1/product/get-products?category=&price=&search="}
+{"level":"info","message":"GET /api/v1/product/get-products"}
+{"level":"info","message":"GET /api/v1/product/get-products?category=&price=&search="}
+{"level":"info","message":"GET /api/v1/product/get-products"}
+{"level":"info","message":"GET /uploads/image5.jpg"}
+{"level":"info","message":"GET /favicon.ico"}
+{"level":"info","message":"GET /api/v1/product/get-products?category=&price=&search="}
+{"level":"info","message":"GET /api/v1/product/get-products"}
+{"level":"info","message":"GET /api/v1/product/get-products?category=&price=&search="}
+{"level":"info","message":"GET /api/v1/product/get-products"}
+{"level":"info","message":"GET /api/v1/product/get-products?category=&price=&search="}
+{"level":"info","message":"GET /api/v1/product/get-products"}
+{"level":"info","message":"GET /uploads/image5.jpg"}
+{"level":"info","message":"GET /api/v1/product/get-products?category=&price=&search="}
+{"level":"info","message":"GET /api/v1/product/get-products"}
+{"level":"info","message":"GET /api/v1/product/get-products?category=&price=&search="}
+{"level":"info","message":"GET /api/v1/product/get-products"}
+{"level":"info","message":"GET /api/v1/product/get-products?category=&price=&search="}
+{"level":"info","message":"GET /api/v1/product/get-products"}
+{"level":"info","message":"OPTIONS /api/v1/payment/generate-payment"}
+{"level":"info","message":"POST /api/v1/payment/generate-payment"}
+{"level":"info","message":"GET /api/v1/product/get-products?category=&price=&search="}
+{"level":"info","message":"GET /api/v1/product/get-products"}
+{"level":"info","message":"GET /api/v1/product/get-products?category=&price=&search="}
+{"level":"info","message":"GET /api/v1/product/get-products"}
+{"level":"info","message":"GET /api/v1/product/get-products?category=&price=&search="}
+{"level":"info","message":"GET /api/v1/product/get-products"}
+{"level":"info","message":"GET /api/v1/product/get-products?category=&price=&search="}
+{"level":"info","message":"GET /api/v1/product/get-products"}
+{"level":"info","message":"GET /api/v1/product/get-products?category=&price=&search="}
+{"level":"info","message":"GET /api/v1/product/get-products"}
+{"level":"info","message":"GET /api/v1/product/get-products?category=&price=&search="}
+{"level":"info","message":"GET /api/v1/product/get-products"}
+{"level":"info","message":"GET /api/v1/product/get-products?category=&price=&search="}
+{"level":"info","message":"GET /api/v1/product/get-products"}
+{"level":"info","message":"GET /api/v1/product/get-products?category=&price=&search="}
+{"level":"info","message":"GET /api/v1/product/get-products"}
+{"level":"info","message":"GET /api/v1/product/get-products?category=&price=&search="}
+{"level":"info","message":"GET /api/v1/product/get-products"}
+{"level":"info","message":"GET /api/v1/product/get-products?category=&price=&search="}
+{"level":"info","message":"GET /api/v1/product/get-products"}
+{"level":"info","message":"GET /api/v1/product/get-products?category=&price=&search="}
+{"level":"info","message":"GET /api/v1/product/get-products"}
+{"level":"info","message":"GET /api/v1/product/get-products?category=&price=&search="}
+{"level":"info","message":"GET /api/v1/product/get-products"}
+{"level":"info","message":"GET /api/v1/product/get-products?category=&price=&search="}
+{"level":"info","message":"GET /api/v1/product/get-products"}
+{"level":"info","message":"GET /api/v1/product/get-products?category=&price=&search="}
+{"level":"info","message":"GET /api/v1/product/get-products"}
+{"level":"info","message":"GET /api/v1/product/get-products?category=&price=&search="}
+{"level":"info","message":"GET /api/v1/product/get-products"}
+{"level":"info","message":"GET /api/v1/product/get-products?category=&price=&search="}
+{"level":"info","message":"GET /api/v1/product/get-products"}
+{"level":"info","message":"GET /api/v1/product/get-products?category=&price=&search="}
+{"level":"info","message":"GET /api/v1/product/get-products"}
+{"level":"info","message":"GET /api/v1/product/get-products?category=&price=&search="}
+{"level":"info","message":"GET /api/v1/product/get-products"}
+{"level":"info","message":"GET /uploads/image1.jpg"}
+{"level":"info","message":"GET /uploads/image3.jpg"}
+{"level":"info","message":"GET /uploads/image5.jpg"}
+{"level":"info","message":"GET /api/v1/product/get-products?category=&price=&search="}
+{"level":"info","message":"GET /api/v1/product/get-products"}
+{"level":"info","message":"GET /uploads/image1.jpg"}
+{"level":"info","message":"GET /uploads/image3.jpg"}
+{"level":"info","message":"GET /uploads/image5.jpg"}
+{"level":"info","message":"GET /api/v1/product/get-products?category=&price=&search="}
+{"level":"info","message":"GET /api/v1/product/get-products"}
+{"level":"info","message":"GET /uploads/image1.jpg"}
+{"level":"info","message":"GET /uploads/image3.jpg"}
+{"level":"info","message":"GET /uploads/image5.jpg"}
+{"level":"info","message":"GET /api/v1/product/get-products?category=&price=&search="}
+{"level":"info","message":"GET /api/v1/product/get-products"}
+{"level":"info","message":"GET /uploads/image3.jpg"}
+{"level":"info","message":"GET /uploads/image1.jpg"}
+{"level":"info","message":"GET /uploads/image5.jpg"}
+{"level":"info","message":"GET /api/v1/product/get-products?category=&price=&search="}
+{"level":"info","message":"GET /api/v1/product/get-products"}
+{"level":"info","message":"GET /uploads/image1.jpg"}
+{"level":"info","message":"GET /uploads/image3.jpg"}
+{"level":"info","message":"GET /uploads/image5.jpg"}
+{"level":"info","message":"GET /api/v1/product/get-products?category=&price=&search="}
+{"level":"info","message":"GET /api/v1/product/get-products"}
+{"level":"info","message":"GET /uploads/image1.jpg"}
+{"level":"info","message":"GET /uploads/image3.jpg"}
+{"level":"info","message":"GET /uploads/image5.jpg"}
+{"level":"info","message":"GET /api/v1/product/get-products?category=&price=&search="}
+{"level":"info","message":"GET /api/v1/product/get-products"}
+{"level":"info","message":"GET /uploads/image1.jpg"}
+{"level":"info","message":"GET /uploads/image3.jpg"}
+{"level":"info","message":"GET /uploads/image5.jpg"}
+{"level":"info","message":"GET /api/v1/product/get-products?category=&price=&search="}
+{"level":"info","message":"GET /api/v1/product/get-products"}
+{"level":"info","message":"GET /uploads/image1.jpg"}
+{"level":"info","message":"GET /uploads/image3.jpg"}
+{"level":"info","message":"GET /uploads/image5.jpg"}
+{"level":"info","message":"GET /api/v1/product/get-products?category=&price=&search="}
+{"level":"info","message":"GET /api/v1/product/get-products"}
+{"level":"info","message":"GET /uploads/image1.jpg"}
+{"level":"info","message":"GET /uploads/image3.jpg"}
+{"level":"info","message":"GET /uploads/image5.jpg"}
+{"level":"info","message":"GET /api/v1/product/get-products?category=&price=&search="}
+{"level":"info","message":"GET /api/v1/product/get-products"}
+{"level":"info","message":"GET /uploads/image1.jpg"}
+{"level":"info","message":"GET /uploads/image3.jpg"}
+{"level":"info","message":"GET /uploads/image5.jpg"}
+{"level":"info","message":"GET /api/v1/product/get-products?category=&price=&search="}
+{"level":"info","message":"GET /api/v1/product/get-products"}
+{"level":"info","message":"GET /uploads/image1.jpg"}
+{"level":"info","message":"GET /uploads/image3.jpg"}
+{"level":"info","message":"GET /uploads/image5.jpg"}
+{"level":"info","message":"GET /api/v1/product/get-products?category=&price=&search="}
+{"level":"info","message":"GET /api/v1/product/get-products"}
+{"level":"info","message":"GET /uploads/image1.jpg"}
+{"level":"info","message":"GET /uploads/image3.jpg"}
+{"level":"info","message":"GET /uploads/image5.jpg"}
+{"level":"info","message":"GET /api/v1/product/get-products?category=&price=&search="}
+{"level":"info","message":"GET /api/v1/product/get-products"}
+{"level":"info","message":"GET /uploads/image1.jpg"}
+{"level":"info","message":"GET /uploads/image3.jpg"}
+{"level":"info","message":"GET /uploads/image5.jpg"}
+{"level":"info","message":"GET /api/v1/product/get-products?category=&price=&search="}
+{"level":"info","message":"GET /api/v1/product/get-products"}
+{"level":"info","message":"GET /uploads/image1.jpg"}
+{"level":"info","message":"GET /uploads/image3.jpg"}
+{"level":"info","message":"GET /uploads/image5.jpg"}
+{"level":"info","message":"GET /uploads/image5.jpg"}
+{"level":"info","message":"GET /uploads/image5.jpg"}
+{"level":"info","message":{"event":"User logged in","timestamp":"2025-08-01T06:08:55.088Z","userId":"688c4b91e1f22b876c893e25"},"timestamp":"2025-08-01T06:08:55.089Z"}
+{"level":"info","message":{"event":"User logged in","timestamp":"2025-08-01T06:16:28.208Z","userId":"688c4b91e1f22b876c893e25"},"timestamp":"2025-08-01T06:16:28.208Z"}
+{"level":"info","message":{"event":"User logged in","timestamp":"2025-08-01T06:31:16.219Z","userId":"688c4b91e1f22b876c893e25"},"timestamp":"2025-08-01T06:31:16.219Z"}
+{"level":"info","message":"Connected to MongoDB for seeding.","timestamp":"2025-08-01T06:41:06.097Z"}
+{"level":"info","message":"Cleared User collection.","timestamp":"2025-08-01T06:41:06.341Z"}
+{"level":"info","message":"Seeded user: alice.admin@example.com","timestamp":"2025-08-01T06:41:07.776Z"}
+{"level":"info","message":"Seeded user: bob.customer@example.com","timestamp":"2025-08-01T06:41:09.172Z"}
+{"level":"info","message":"Cleared Product collection.","timestamp":"2025-08-01T06:41:09.181Z"}
+{"level":"info","message":"Seeded product: Mechanical Keyboard","timestamp":"2025-08-01T06:41:09.207Z"}
+{"level":"info","message":"Seeded product: Wireless Mouse","timestamp":"2025-08-01T06:41:09.214Z"}
+{"level":"info","message":"Seeded product: Gaming Headset","timestamp":"2025-08-01T06:41:09.220Z"}
+{"level":"info","message":{"event":"User registered (pending verification)","timestamp":"2025-08-01T06:43:51.560Z","userId":"688c6223c45a67ff8d0f8201"},"timestamp":"2025-08-01T06:43:51.561Z"}
+{"level":"info","message":{"event":"Email verified","timestamp":"2025-08-01T06:44:03.444Z","userId":"688c6223c45a67ff8d0f8201"},"timestamp":"2025-08-01T06:44:03.444Z"}
+{"level":"info","message":{"event":"User logged in","timestamp":"2025-08-01T06:44:20.275Z","userId":"688c6223c45a67ff8d0f8201"},"timestamp":"2025-08-01T06:44:20.275Z"}
+{"level":"error","message":"Login error: Malformed UTF-8 data","timestamp":"2025-08-01T06:46:22.207Z"}
+{"level":"error","message":"Login error: Malformed UTF-8 data","timestamp":"2025-08-01T06:47:43.159Z"}
+{"level":"info","message":{"event":"Failed login attempt","timestamp":"2025-08-01T09:11:17.616Z","userId":"688c6223c45a67ff8d0f8201"},"timestamp":"2025-08-01T09:11:17.617Z"}
+{"level":"error","message":"Failed login attempt: wrong password for user gadgetuser@yopmail.com","timestamp":"2025-08-01T09:11:17.622Z"}
+{"level":"info","message":{"event":"Failed login attempt","timestamp":"2025-08-01T09:11:22.858Z","userId":"688c6223c45a67ff8d0f8201"},"timestamp":"2025-08-01T09:11:22.858Z"}
+{"level":"error","message":"Failed login attempt: wrong password for user gadgetuser@yopmail.com","timestamp":"2025-08-01T09:11:22.859Z"}
+{"level":"info","message":{"event":"Failed login attempt","timestamp":"2025-08-01T09:11:27.020Z","userId":"688c6223c45a67ff8d0f8201"},"timestamp":"2025-08-01T09:11:27.021Z"}
+{"level":"error","message":"Failed login attempt: wrong password for user gadgetuser@yopmail.com","timestamp":"2025-08-01T09:11:27.022Z"}
+{"level":"info","message":{"event":"Failed login attempt","timestamp":"2025-08-01T09:11:31.428Z","userId":"688c6223c45a67ff8d0f8201"},"timestamp":"2025-08-01T09:11:31.428Z"}
+{"level":"error","message":"Failed login attempt: wrong password for user gadgetuser@yopmail.com","timestamp":"2025-08-01T09:11:31.429Z"}
+{"level":"info","message":{"event":"Failed login attempt","timestamp":"2025-08-01T09:11:49.452Z","userId":"688c6223c45a67ff8d0f8201"},"timestamp":"2025-08-01T09:11:49.452Z"}
+{"level":"error","message":"Failed login attempt: wrong password for user gadgetuser@yopmail.com","timestamp":"2025-08-01T09:11:49.453Z"}
+{"level":"info","message":{"event":"Account locked due to brute force","timestamp":"2025-08-01T09:11:55.079Z","userId":"688c6223c45a67ff8d0f8201"},"timestamp":"2025-08-01T09:11:55.079Z"}
+{"level":"error","message":"Account locked for user gadgetuser@yopmail.com","timestamp":"2025-08-01T09:11:55.080Z"}
+{"level":"info","message":{"event":"Account locked due to brute force","timestamp":"2025-08-01T09:11:55.319Z","userId":"688c6223c45a67ff8d0f8201"},"timestamp":"2025-08-01T09:11:55.319Z"}
+{"level":"error","message":"Account locked for user gadgetuser@yopmail.com","timestamp":"2025-08-01T09:11:55.319Z"}
+{"level":"info","message":{"event":"Account locked due to brute force","timestamp":"2025-08-01T09:11:55.548Z","userId":"688c6223c45a67ff8d0f8201"},"timestamp":"2025-08-01T09:11:55.548Z"}
+{"level":"error","message":"Account locked for user gadgetuser@yopmail.com","timestamp":"2025-08-01T09:11:55.549Z"}
+{"level":"info","message":{"event":"Account locked due to brute force","timestamp":"2025-08-01T09:11:55.783Z","userId":"688c6223c45a67ff8d0f8201"},"timestamp":"2025-08-01T09:11:55.783Z"}
+{"level":"error","message":"Account locked for user gadgetuser@yopmail.com","timestamp":"2025-08-01T09:11:55.783Z"}
+{"level":"info","message":{"event":"Account locked due to brute force","timestamp":"2025-08-01T09:11:56.414Z","userId":"688c6223c45a67ff8d0f8201"},"timestamp":"2025-08-01T09:11:56.414Z"}
+{"level":"error","message":"Account locked for user gadgetuser@yopmail.com","timestamp":"2025-08-01T09:11:56.415Z"}
+{"code":"EDNS","command":"CONN","hostname":"smtp.gmail.com","level":"error","message":"Password reset request error: queryA ETIMEOUT smtp.gmail.com","stack":"Error: queryA ETIMEOUT smtp.gmail.com\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/callback_resolver:45:19)","syscall":"queryA","timestamp":"2025-08-01T09:31:59.070Z"}
+{"level":"info","message":{"event":"Password reset requested","timestamp":"2025-08-01T09:36:03.362Z","userId":"688c6223c45a67ff8d0f8201"},"timestamp":"2025-08-01T09:36:03.362Z"}
+{"level":"info","message":{"event":"Password reset","timestamp":"2025-08-01T09:36:26.378Z","userId":"688c6223c45a67ff8d0f8201"},"timestamp":"2025-08-01T09:36:26.378Z"}
+{"level":"info","message":{"event":"Failed login attempt","timestamp":"2025-08-01T09:36:36.374Z","userId":"688c6223c45a67ff8d0f8201"},"timestamp":"2025-08-01T09:36:36.374Z"}
+{"level":"error","message":"Failed login attempt: wrong password for user gadgetuser@yopmail.com","timestamp":"2025-08-01T09:36:36.375Z"}
+{"level":"info","message":{"event":"User logged in","timestamp":"2025-08-01T09:36:41.664Z","userId":"688c6223c45a67ff8d0f8201"},"timestamp":"2025-08-01T09:36:41.665Z"}
+{"level":"info","message":{"event":"Password reset requested","timestamp":"2025-08-01T09:41:07.555Z","userId":"688c6223c45a67ff8d0f8201"},"timestamp":"2025-08-01T09:41:07.556Z"}
+{"level":"info","message":{"event":"Password reset","timestamp":"2025-08-01T09:41:43.948Z","userId":"688c6223c45a67ff8d0f8201"},"timestamp":"2025-08-01T09:41:43.948Z"}
+{"level":"info","message":{"event":"Failed login attempt","timestamp":"2025-08-01T09:44:43.003Z","userId":"688c6223c45a67ff8d0f8201"},"timestamp":"2025-08-01T09:44:43.003Z"}
+{"level":"error","message":"Failed login attempt: wrong password for user gadgetuser@yopmail.com","timestamp":"2025-08-01T09:44:43.005Z"}
+{"level":"info","message":{"event":"Failed login attempt","timestamp":"2025-08-01T09:44:48.420Z","userId":"688c6223c45a67ff8d0f8201"},"timestamp":"2025-08-01T09:44:48.420Z"}
+{"level":"error","message":"Failed login attempt: wrong password for user gadgetuser@yopmail.com","timestamp":"2025-08-01T09:44:48.421Z"}
+{"level":"info","message":{"event":"Failed login attempt","timestamp":"2025-08-01T09:45:00.812Z","userId":"688c6223c45a67ff8d0f8201"},"timestamp":"2025-08-01T09:45:00.812Z"}
+{"level":"error","message":"Failed login attempt: wrong password for user gadgetuser@yopmail.com","timestamp":"2025-08-01T09:45:00.813Z"}
+{"level":"info","message":{"event":"Failed login attempt","timestamp":"2025-08-01T09:45:03.577Z","userId":"688c6223c45a67ff8d0f8201"},"timestamp":"2025-08-01T09:45:03.577Z"}
+{"level":"error","message":"Failed login attempt: wrong password for user gadgetuser@yopmail.com","timestamp":"2025-08-01T09:45:03.578Z"}
+{"level":"info","message":{"event":"Failed login attempt","timestamp":"2025-08-01T09:45:09.102Z","userId":"688c6223c45a67ff8d0f8201"},"timestamp":"2025-08-01T09:45:09.102Z"}
+{"level":"error","message":"Failed login attempt: wrong password for user gadgetuser@yopmail.com","timestamp":"2025-08-01T09:45:09.102Z"}
+{"level":"info","message":{"event":"Account locked due to brute force","timestamp":"2025-08-01T09:52:19.024Z","userId":"688c6223c45a67ff8d0f8201"},"timestamp":"2025-08-01T09:52:19.026Z"}
+{"level":"error","message":"Account locked for user gadgetuser@yopmail.com","timestamp":"2025-08-01T09:52:19.035Z"}
+{"level":"info","message":{"event":"User logged in","timestamp":"2025-08-01T09:52:37.455Z","userId":"688c6223c45a67ff8d0f8201"},"timestamp":"2025-08-01T09:52:37.455Z"}
+{"level":"info","message":{"event":"User logged in","timestamp":"2025-08-01T09:58:55.146Z","userId":"688c6223c45a67ff8d0f8201"},"timestamp":"2025-08-01T09:58:55.147Z"}
+{"level":"info","message":{"event":"Failed login attempt","timestamp":"2025-08-01T10:05:38.887Z","userId":"688c6223c45a67ff8d0f8201"},"timestamp":"2025-08-01T10:05:38.889Z"}
+{"level":"error","message":"Failed login attempt: wrong password for user gadgetuser@yopmail.com","timestamp":"2025-08-01T10:05:38.894Z"}
+{"level":"info","message":{"event":"Failed login attempt","timestamp":"2025-08-01T10:05:44.011Z","userId":"688c6223c45a67ff8d0f8201"},"timestamp":"2025-08-01T10:05:44.011Z"}
+{"level":"error","message":"Failed login attempt: wrong password for user gadgetuser@yopmail.com","timestamp":"2025-08-01T10:05:44.012Z"}
+{"level":"info","message":{"event":"User logged in","timestamp":"2025-08-01T10:05:53.939Z","userId":"688c6223c45a67ff8d0f8201"},"timestamp":"2025-08-01T10:05:53.939Z"}
+{"level":"info","message":"Connected to MongoDB for seeding.","timestamp":"2025-08-01T10:10:28.756Z"}
+{"level":"info","message":"Cleared User collection.","timestamp":"2025-08-01T10:10:28.818Z"}
+{"level":"info","message":"Seeded user: alice.admin@example.com","timestamp":"2025-08-01T10:10:29.434Z"}
+{"level":"info","message":"Seeded user: bob.customer@example.com","timestamp":"2025-08-01T10:10:30.007Z"}
+{"level":"info","message":"Cleared Product collection.","timestamp":"2025-08-01T10:10:30.014Z"}
+{"level":"info","message":"Seeded product: Mechanical Keyboard","timestamp":"2025-08-01T10:10:30.020Z"}
+{"level":"info","message":"Seeded product: Wireless Mouse","timestamp":"2025-08-01T10:10:30.023Z"}
+{"level":"info","message":"Seeded product: Gaming Headset","timestamp":"2025-08-01T10:10:30.030Z"}
+{"level":"info","message":"Connected to MongoDB for seeding.","timestamp":"2025-08-01T10:11:30.153Z"}
+{"level":"info","message":"Cleared User collection.","timestamp":"2025-08-01T10:11:30.211Z"}
+{"level":"info","message":"Seeded user: alice.admin@example.com","timestamp":"2025-08-01T10:11:30.813Z"}
+{"level":"info","message":"Seeded user: bob.customer@example.com","timestamp":"2025-08-01T10:11:31.382Z"}
+{"level":"info","message":"Cleared Product collection.","timestamp":"2025-08-01T10:11:31.384Z"}
+{"level":"info","message":"Seeded product: Mechanical Keyboard","timestamp":"2025-08-01T10:11:31.388Z"}
+{"level":"info","message":"Seeded product: Wireless Mouse","timestamp":"2025-08-01T10:11:31.392Z"}
+{"level":"info","message":"Seeded product: Gaming Headset","timestamp":"2025-08-01T10:11:31.395Z"}
+{"level":"info","message":"Connected to MongoDB for seeding.","timestamp":"2025-08-01T10:12:51.049Z"}
+{"level":"info","message":"Cleared User collection.","timestamp":"2025-08-01T10:12:51.103Z"}
+{"level":"info","message":"Seeded user: admin@gadgetghar.com","timestamp":"2025-08-01T10:12:51.617Z"}
+{"level":"info","message":"Seeded user: apekshya@yopmail.com","timestamp":"2025-08-01T10:12:52.102Z"}
+{"level":"info","message":"Cleared Product collection.","timestamp":"2025-08-01T10:12:52.104Z"}
+{"level":"info","message":"Seeded product: Super Quality Earpods","timestamp":"2025-08-01T10:12:52.109Z"}
+{"level":"info","message":"Seeded product: Smart Glasses","timestamp":"2025-08-01T10:12:52.112Z"}
+{"level":"info","message":"Seeded product: Smart Watch","timestamp":"2025-08-01T10:12:52.115Z"}
+{"level":"info","message":{"event":"User registered (pending verification)","timestamp":"2025-08-01T10:16:02.096Z","userId":"688c93dea3ededd888a42a5e"},"timestamp":"2025-08-01T10:16:02.098Z"}
+{"level":"info","message":{"event":"Email verified","timestamp":"2025-08-01T10:16:18.910Z","userId":"688c93dea3ededd888a42a5e"},"timestamp":"2025-08-01T10:16:18.910Z"}
+{"level":"info","message":{"event":"User logged in","timestamp":"2025-08-01T10:16:37.332Z","userId":"688c93dea3ededd888a42a5e"},"timestamp":"2025-08-01T10:16:37.332Z"}
+{"level":"info","message":{"event":"Password reset requested","timestamp":"2025-08-01T10:19:29.302Z","userId":"688c93dea3ededd888a42a5e"},"timestamp":"2025-08-01T10:19:29.303Z"}
+{"level":"info","message":{"event":"Password reset","timestamp":"2025-08-01T10:19:50.443Z","userId":"688c93dea3ededd888a42a5e"},"timestamp":"2025-08-01T10:19:50.443Z"}
+{"level":"error","message":"Login error: Malformed UTF-8 data","timestamp":"2025-08-01T10:21:34.050Z"}
+{"level":"info","message":"Connected to MongoDB for seeding.","timestamp":"2025-08-01T10:30:09.790Z"}
+{"level":"info","message":"Cleared User collection.","timestamp":"2025-08-01T10:30:09.865Z"}
+{"level":"info","message":"Seeded user: admin@gadgetghar.com","timestamp":"2025-08-01T10:30:10.521Z"}
+{"level":"info","message":"Seeded user: apekshya@yopmail.com","timestamp":"2025-08-01T10:30:11.129Z"}
+{"level":"info","message":"Cleared Product collection.","timestamp":"2025-08-01T10:30:11.135Z"}
+{"level":"info","message":"Seeded product: Super Quality Earpods","timestamp":"2025-08-01T10:30:11.144Z"}
+{"level":"info","message":"Seeded product: Smart Glasses","timestamp":"2025-08-01T10:30:11.149Z"}
+{"level":"info","message":"Seeded product: Smart Watch","timestamp":"2025-08-01T10:30:11.154Z"}
+{"level":"info","message":"Connected to MongoDB for seeding.","timestamp":"2025-08-01T10:33:48.745Z"}
+{"level":"info","message":"Cleared User collection.","timestamp":"2025-08-01T10:33:48.801Z"}
+{"level":"info","message":"Seeded user: admin@gadgetghar.com","timestamp":"2025-08-01T10:33:49.325Z"}
+{"level":"info","message":"Seeded user: apekshya@yopmail.com","timestamp":"2025-08-01T10:33:49.832Z"}
+{"level":"info","message":"Cleared Product collection.","timestamp":"2025-08-01T10:33:49.834Z"}
+{"level":"info","message":"Seeded product: Super Quality Earpods","timestamp":"2025-08-01T10:33:49.838Z"}
+{"level":"info","message":"Seeded product: Smart Glasses","timestamp":"2025-08-01T10:33:49.842Z"}
+{"level":"info","message":"Seeded product: Smart Watch","timestamp":"2025-08-01T10:33:49.849Z"}
+{"level":"info","message":{"event":"Admin login successful","timestamp":"2025-08-01T10:35:42.681Z"},"timestamp":"2025-08-01T10:35:42.681Z"}
+{"level":"info","message":{"event":"Admin login successful","timestamp":"2025-08-01T10:35:50.239Z"},"timestamp":"2025-08-01T10:35:50.239Z"}
+{"level":"info","message":{"event":"Admin login successful","timestamp":"2025-08-01T10:36:05.228Z"},"timestamp":"2025-08-01T10:36:05.228Z"}
+{"level":"info","message":{"event":"Admin login successful","timestamp":"2025-08-01T10:36:49.961Z"},"timestamp":"2025-08-01T10:36:49.962Z"}
+{"level":"info","message":{"event":"Admin login successful","timestamp":"2025-08-01T10:36:51.923Z"},"timestamp":"2025-08-01T10:36:51.923Z"}
+{"level":"info","message":{"event":"Admin login successful","timestamp":"2025-08-01T10:40:50.021Z"},"timestamp":"2025-08-01T10:40:50.022Z"}
+{"level":"error","message":"Failed login attempt: user not found for email gadgetuser@yopmail.com","timestamp":"2025-08-01T15:27:07.987Z"}
+{"level":"error","message":"Failed login attempt: user not found for email gadgetuser@yopmail.com","timestamp":"2025-08-01T15:27:12.338Z"}
+{"level":"info","message":{"event":"User registered (pending verification)","timestamp":"2025-08-01T16:02:45.063Z","userId":"688ce51e65c83704e4400718"},"timestamp":"2025-08-01T16:02:45.064Z"}
+{"level":"info","message":{"event":"Email verified","timestamp":"2025-08-01T16:03:03.439Z","userId":"688ce51e65c83704e4400718"},"timestamp":"2025-08-01T16:03:03.439Z"}
+{"level":"info","message":{"event":"Failed login attempt","timestamp":"2025-08-01T16:03:59.552Z","userId":"688ce51e65c83704e4400718"},"timestamp":"2025-08-01T16:03:59.552Z"}
+{"level":"error","message":"Failed login attempt: wrong password for user gadgetuser@yopmail.com","timestamp":"2025-08-01T16:03:59.553Z"}
+{"level":"info","message":{"event":"Failed login attempt","timestamp":"2025-08-01T16:04:16.324Z","userId":"688ce51e65c83704e4400718"},"timestamp":"2025-08-01T16:04:16.325Z"}
+{"level":"error","message":"Failed login attempt: wrong password for user gadgetuser@yopmail.com","timestamp":"2025-08-01T16:04:16.325Z"}
+{"level":"info","message":{"event":"Failed login attempt","timestamp":"2025-08-01T16:04:19.246Z","userId":"688ce51e65c83704e4400718"},"timestamp":"2025-08-01T16:04:19.246Z"}
+{"level":"error","message":"Failed login attempt: wrong password for user gadgetuser@yopmail.com","timestamp":"2025-08-01T16:04:19.247Z"}
+{"level":"info","message":{"event":"Failed login attempt","timestamp":"2025-08-01T16:04:22.234Z","userId":"688ce51e65c83704e4400718"},"timestamp":"2025-08-01T16:04:22.234Z"}
+{"level":"error","message":"Failed login attempt: wrong password for user gadgetuser@yopmail.com","timestamp":"2025-08-01T16:04:22.234Z"}
+{"level":"info","message":{"event":"Failed login attempt","timestamp":"2025-08-01T16:04:33.455Z","userId":"688ce51e65c83704e4400718"},"timestamp":"2025-08-01T16:04:33.455Z"}
+{"level":"error","message":"Failed login attempt: wrong password for user gadgetuser@yopmail.com","timestamp":"2025-08-01T16:04:33.455Z"}
+{"level":"info","message":{"event":"Account locked due to brute force","timestamp":"2025-08-01T16:04:40.530Z","userId":"688ce51e65c83704e4400718"},"timestamp":"2025-08-01T16:04:40.530Z"}
+{"level":"error","message":"Account locked for user gadgetuser@yopmail.com","timestamp":"2025-08-01T16:04:40.531Z"}
+{"level":"info","message":{"event":"User registered (pending verification)","timestamp":"2025-08-01T16:08:53.779Z","userId":"688ce69065c83704e440072c"},"timestamp":"2025-08-01T16:08:53.779Z"}
+{"level":"info","message":{"event":"Email verified","timestamp":"2025-08-01T16:09:13.896Z","userId":"688ce69065c83704e440072c"},"timestamp":"2025-08-01T16:09:13.896Z"}
+{"level":"info","message":{"event":"Failed login attempt","timestamp":"2025-08-01T16:09:30.867Z","userId":"688ce69065c83704e440072c"},"timestamp":"2025-08-01T16:09:30.867Z"}
+{"level":"error","message":"Failed login attempt: wrong password for user gadgetuser@yopmail.com","timestamp":"2025-08-01T16:09:30.867Z"}
+{"level":"info","message":{"event":"Failed login attempt","timestamp":"2025-08-01T16:10:19.768Z","userId":"688ce69065c83704e440072c"},"timestamp":"2025-08-01T16:10:19.768Z"}
+{"level":"error","message":"Failed login attempt: wrong password for user gadgetuser@yopmail.com","timestamp":"2025-08-01T16:10:19.769Z"}
+{"level":"info","message":{"event":"Failed login attempt","timestamp":"2025-08-01T16:10:22.617Z","userId":"688ce69065c83704e440072c"},"timestamp":"2025-08-01T16:10:22.617Z"}
+{"level":"error","message":"Failed login attempt: wrong password for user gadgetuser@yopmail.com","timestamp":"2025-08-01T16:10:22.618Z"}
+{"level":"info","message":{"event":"Failed login attempt","timestamp":"2025-08-01T16:10:25.319Z","userId":"688ce69065c83704e440072c"},"timestamp":"2025-08-01T16:10:25.319Z"}
+{"level":"error","message":"Failed login attempt: wrong password for user gadgetuser@yopmail.com","timestamp":"2025-08-01T16:10:25.319Z"}
+{"level":"info","message":{"event":"Failed login attempt","timestamp":"2025-08-01T16:10:34.549Z","userId":"688ce69065c83704e440072c"},"timestamp":"2025-08-01T16:10:34.549Z"}
+{"level":"error","message":"Failed login attempt: wrong password for user gadgetuser@yopmail.com","timestamp":"2025-08-01T16:10:34.550Z"}
+{"level":"info","message":{"event":"Account locked due to brute force","timestamp":"2025-08-01T16:11:11.830Z","userId":"688ce69065c83704e440072c"},"timestamp":"2025-08-01T16:11:11.830Z"}
+{"level":"error","message":"Account locked for user gadgetuser@yopmail.com","timestamp":"2025-08-01T16:11:11.831Z"}
+{"level":"info","message":{"event":"User logged in","timestamp":"2025-08-01T16:11:53.534Z","userId":"688ce69065c83704e440072c"},"timestamp":"2025-08-01T16:11:53.534Z"}
+{"level":"info","message":{"event":"Password reset requested","timestamp":"2025-08-01T16:15:44.722Z","userId":"688ce69065c83704e440072c"},"timestamp":"2025-08-01T16:15:44.722Z"}
+{"level":"info","message":{"event":"Password reset","timestamp":"2025-08-01T16:16:15.440Z","userId":"688ce69065c83704e440072c"},"timestamp":"2025-08-01T16:16:15.440Z"}
+{"level":"info","message":{"event":"Password reset requested","timestamp":"2025-08-01T16:16:41.453Z","userId":"688ce69065c83704e440072c"},"timestamp":"2025-08-01T16:16:41.453Z"}
+{"level":"info","message":{"event":"Password reset","timestamp":"2025-08-01T16:17:30.665Z","userId":"688ce69065c83704e440072c"},"timestamp":"2025-08-01T16:17:30.665Z"}
+{"level":"info","message":{"event":"Failed login attempt","timestamp":"2025-08-01T16:17:45.112Z","userId":"688ce69065c83704e440072c"},"timestamp":"2025-08-01T16:17:45.112Z"}
+{"level":"error","message":"Failed login attempt: wrong password for user gadgetuser@yopmail.com","timestamp":"2025-08-01T16:17:45.113Z"}
+{"level":"info","message":{"event":"User logged in","timestamp":"2025-08-01T16:17:51.691Z","userId":"688ce69065c83704e440072c"},"timestamp":"2025-08-01T16:17:51.691Z"}
+{"level":"info","message":{"event":"Admin login successful","timestamp":"2025-08-01T16:47:09.252Z"},"timestamp":"2025-08-01T16:47:09.253Z"}
+{"level":"info","message":{"event":"Admin login successful","timestamp":"2025-08-01T16:59:16.907Z"},"timestamp":"2025-08-01T16:59:16.908Z"}
+{"level":"info","message":{"event":"User registered (pending verification)","timestamp":"2025-08-02T10:31:25.100Z","userId":"688de8f33823a2b3a22d55e7"},"timestamp":"2025-08-02T10:31:25.100Z"}
+{"level":"error","message":"Failed login attempt: email not verified for user sush@yopmail.com","timestamp":"2025-08-02T10:31:58.857Z"}
+{"level":"info","message":{"event":"Email verified","timestamp":"2025-08-02T10:32:52.779Z","userId":"688de8f33823a2b3a22d55e7"},"timestamp":"2025-08-02T10:32:52.779Z"}
+{"level":"info","message":{"event":"User logged in","timestamp":"2025-08-02T10:33:35.552Z","userId":"688de8f33823a2b3a22d55e7"},"timestamp":"2025-08-02T10:33:35.552Z"}
+{"level":"info","message":{"event":"Password reset requested","timestamp":"2025-08-02T10:40:43.569Z","userId":"688de8f33823a2b3a22d55e7"},"timestamp":"2025-08-02T10:40:43.569Z"}
